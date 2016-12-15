@@ -1,0 +1,1739 @@
+#--------------------------------------------------------------------
+
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+languagesystem dev2 dflt;
+languagesystem dev2 MAR;
+languagesystem dev2 HIN;
+languagesystem deva dflt;
+languagesystem deva MAR;
+languagesystem deva HIN;
+
+
+
+#--------------------------------------------------------------------
+
+
+feature locl { # Localized forms
+	script dev2;
+	language MAR;
+		sub Sha.dv by Sha.MAR.dv;
+		sub La.dv by La.MAR.dv;
+
+	script deva;
+	language MAR;
+		sub Sha.dv by Sha.MAR.dv;
+		sub La.dv by La.MAR.dv;
+} locl;
+
+
+#--------------------------------------------------------------------
+
+feature nukt { # Nukta consonants
+
+lookup nukt1 {
+	sub Ka.dv Nukta.dv by KaNukta.dv;
+	sub Kha.dv Nukta.dv by KhaNukta.dv;
+	sub Ga.dv Nukta.dv by GaNukta.dv;
+	sub Ja.dv Nukta.dv by JaNukta.dv;
+	sub Dda.dv Nukta.dv by DdaNukta.dv;
+	sub Ddha.dv Nukta.dv by DdhaNukta.dv;
+	sub Pha.dv Nukta.dv by PhaNukta.dv;
+	sub Ya.dv Nukta.dv by YaNukta.dv;
+	sub Na.dv Nukta.dv by NaNukta.dv;
+	sub Ra.dv Nukta.dv by RaNukta.dv;
+	sub Lla.dv Nukta.dv by LlaNukta.dv;
+} nukt1;
+} nukt;
+
+
+#--------------------------------------------------------------------
+
+feature akhn { # Akhanda
+	sub Ka.dv Halant.dv Ssa.dv by KaSsa.dv;
+	sub Ja.dv Halant.dv Nya.dv by JaNya.dv;
+	sub vowelIi.dv Bindu.dv by vowelIiBindu.dv;
+	sub vowelIi.dv Chandrabindu.dv by vowelIiChandrabindu.dv;
+	sub Pa.dv matraLru.dv by PamatraLru.dv;
+	sub Pa.dv matraLruu.dv by PamatraLruu.dv;
+	sub Ka.dv matraLru.dv by KamatraLru.dv;
+	sub Ka.dv matraLruu.dv by KamatraLruu.dv;
+#	sub Ra.dv Halant.dv ZWJ by RaNuktaHalant.dv;
+} akhn;
+
+#--------------------------------------------------------------------
+
+
+feature rphf { # Reph forms
+	sub Ra.dv Halant.dv by Reph.dv;
+} rphf;
+
+
+#--------------------------------------------------------------------
+
+feature rkrf { # Rakar
+	script dev2;
+	language dflt;
+
+	lookup rkrf2 {
+		sub KaSsa.dv Halant.dv Ra.dv by KaSsaRa.dv;
+		sub JaNya.dv Halant.dv Ra.dv by JaNyaRa.dv;
+} rkrf2;
+
+	lookup rkrf1 {
+		sub Ka.dv Halant.dv Ra.dv by KaRa.dv;
+		sub Kha.dv Halant.dv Ra.dv by KhaRa.dv;
+		sub Ga.dv Halant.dv Ra.dv by GaRa.dv;
+		sub Gha.dv Halant.dv Ra.dv by GhaRa.dv;
+		sub Nga.dv Halant.dv Ra.dv by NgaRa.dv;
+		sub Ca.dv Halant.dv Ra.dv by CaRa.dv;
+		sub Cha.dv Halant.dv Ra.dv by ChaRa.dv;
+		sub Ja.dv Halant.dv Ra.dv by JaRa.dv;
+		sub Jha.dv Halant.dv Ra.dv by JhaRa.dv;
+		sub Nya.dv Halant.dv Ra.dv by NyaRa.dv;
+		sub Tta.dv Halant.dv Ra.dv by TtaRa.dv;
+		sub Dda.dv Halant.dv Ra.dv by DdaRa.dv;
+		sub Ttha.dv Halant.dv Ra.dv by TthaRa.dv;
+		sub Ddha.dv Halant.dv Ra.dv by DdhaRa.dv;
+		sub Nna.dv Halant.dv Ra.dv by NnaRa.dv;
+		sub Ta.dv Halant.dv Ra.dv by TaRa.dv;
+		sub Tha.dv Halant.dv Ra.dv by ThaRa.dv;
+		sub Da.dv Halant.dv Ra.dv by DaRa.dv;
+		sub Dha.dv Halant.dv Ra.dv by DhaRa.dv;
+		sub Na.dv Halant.dv Ra.dv by NaRa.dv;
+		sub Pa.dv Halant.dv Ra.dv by PaRa.dv;
+		sub Pha.dv Halant.dv Ra.dv by PhaRa.dv;
+		sub Ba.dv Halant.dv Ra.dv by BaRa.dv;
+		sub Bha.dv Halant.dv Ra.dv by BhaRa.dv;
+		sub Ma.dv Halant.dv Ra.dv by MaRa.dv;
+		sub Ya.dv Halant.dv Ra.dv by YaRa.dv;
+		sub [La.dv La.MAR.dv] Halant.dv Ra.dv by LaRa.dv;
+		sub Va.dv Halant.dv Ra.dv by VaRa.dv;
+		sub [Sha.dv Sha.MAR.dv] Halant.dv Ra.dv by ShaRa.dv;
+		sub Sa.dv Halant.dv Ra.dv by SaRa.dv;
+		sub Ssa.dv Halant.dv Ra.dv by SsaRa.dv;
+		sub Ha.dv Halant.dv Ra.dv by HaRa.dv;
+		sub Lla.dv Halant.dv Ra.dv by LlaRa.dv;
+
+		sub KaNukta.dv Halant.dv Ra.dv by KaNuktaRa.dv;
+		sub KhaNukta.dv Halant.dv Ra.dv by KhaNuktaRa.dv;
+		sub GaNukta.dv Halant.dv Ra.dv by GaNuktaRa.dv;
+		sub JaNukta.dv Halant.dv Ra.dv by JaNuktaRa.dv;
+		sub PhaNukta.dv Halant.dv Ra.dv by PhaNuktaRa.dv;
+		sub YaNukta.dv Halant.dv Ra.dv by YaNuktaRa.dv;
+
+} rkrf1;
+
+	script dev2;
+	language MAR;
+	lookup rkrf2;
+	lookup rkrf1;
+
+	script dev2;
+	language HIN;
+	lookup rkrf2;
+	lookup rkrf1;
+
+} rkrf;
+
+#--------------------------------------------------------------------
+
+feature blwf {
+	script deva;
+	language dflt;
+	lookup blwf1{
+		sub Ra.dv Halant.dv by Vattu.dv;
+}blwf1;
+
+	script deva;
+	language HIN;
+	lookup blwf1;
+
+	script deva;
+	language MAR;
+	lookup blwf1;
+
+	script dev2;
+	language dflt;
+	lookup blwf2{
+		sub Halant.dv Ra.dv by Vattu.dv;
+}blwf2;
+
+	script dev2;
+	language HIN;
+	lookup blwf2;
+
+	script dev2;
+	language MAR;
+	lookup blwf2;
+
+}blwf;
+
+
+#--------------------------------------------------------------------
+
+feature half  {  # Half Forms
+
+
+	lookup half_rakar {
+		 sub KaRa.dv Halant.dv by KaRaHalf.dv;
+		 sub GaRa.dv Halant.dv by GaRaHalf.dv;
+		 sub GhaRa.dv Halant.dv by GhaRaHalf.dv;
+		 sub TaRa.dv Halant.dv by TaRaHalf.dv;
+		 sub DaRa.dv Halant.dv by DaRaHalant.dv;
+		 sub DhaRa.dv Halant.dv by DhaRaHalf.dv;
+		 sub PaRa.dv Halant.dv by PaRaHalf.dv;
+		 sub BhaRa.dv Halant.dv by BhaRaHalf.dv;
+		 sub VaRa.dv Halant.dv by VaRaHalf.dv;
+		 sub ShaRa.dv Halant.dv by ShaRaHalf.dv;
+		 sub SsaRa.dv Halant.dv by SsaRaHalf.dv;
+		 sub SaRa.dv Halant.dv by SaRaHalf.dv;
+		 sub ChaRa.dv Halant.dv by ChaRaHalant.dv;
+		 sub DdhaRa.dv Halant.dv by DdhaRaHalant.dv;
+} half_rakar;
+
+	lookup half1 {
+		sub Ka.dv Halant.dv by KaHalf.dv;
+		sub Kha.dv Halant.dv by KhaHalf.dv;
+		sub Ga.dv Halant.dv by GaHalf.dv;
+		sub Gha.dv Halant.dv by GhaHalf.dv;		
+		sub Ca.dv Halant.dv by CaHalf.dv;
+		sub Ja.dv Halant.dv by JaHalf.dv;
+		sub Jha.dv Halant.dv by JhaHalf.dv;
+		sub Nya.dv Halant.dv by NyaHalf.dv;
+		sub Nna.dv Halant.dv by NnaHalf.dv;
+		sub Ta.dv Halant.dv by TaHalf.dv;
+		sub Tha.dv Halant.dv by ThaHalf.dv;
+		sub Dha.dv Halant.dv by DhaHalf.dv;
+		sub Na.dv Halant.dv by NaHalf.dv;
+		sub Pa.dv Halant.dv by PaHalf.dv;
+		sub Pha.dv Halant.dv by PhaHalf.dv;
+		sub Ba.dv Halant.dv by BaHalf.dv;
+		sub Bha.dv Halant.dv by BhaHalf.dv;
+		sub Ma.dv Halant.dv by MaHalf.dv;
+		sub Ya.dv Halant.dv by YaHalf.dv;
+		sub La.dv Halant.dv by LaHalf.dv;
+		sub Va.dv Halant.dv by VaHalf.dv;
+		sub Sha.dv Halant.dv by ShaHalf.dv;
+		sub Ssa.dv Halant.dv by SsaHalf.dv;
+		sub Sa.dv Halant.dv by SaHalf.dv;
+		sub KaNukta.dv Halant.dv by KaNuktaHalf.dv;
+		sub KhaNukta.dv Halant.dv by KhaNuktaHalf.dv;
+		sub GaNukta.dv Halant.dv by GaNuktaHalf.dv;
+		sub JaNukta.dv Halant.dv by JaNuktaHalf.dv;
+		sub PhaNukta.dv Halant.dv by PhaNuktaHalf.dv;
+		sub YaNukta.dv Halant.dv by YaNuktaHalf.dv;
+		sub NaNukta.dv Halant.dv by NaNuktaHalf.dv;
+		sub RaNukta.dv Halant.dv by RaNuktaHalf.dv;
+
+} half1;
+
+
+lookup haln1 {
+
+	sub DdaNukta.dv Halant.dv by DdaNuktaHalant.dv;
+	sub DdhaNukta.dv Halant.dv by DdhaNuktaHalant.dv;
+	sub LlaNukta.dv Halant.dv by LlaNuktaHalant.dv;
+
+
+	sub Nga.dv Halant.dv by NgaHalant.dv;
+	sub Cha.dv Halant.dv by ChaHalant.dv;
+	sub Tta.dv Halant.dv by TtaHalant.dv;
+	sub Ttha.dv Halant.dv by TthaHalant.dv;
+	sub Dda.dv Halant.dv by DdaHalant.dv;
+	sub Ddha.dv Halant.dv by DdhaHalant.dv;
+	sub Da.dv Halant.dv by DaHalant.dv;
+	sub Lla.dv Halant.dv by LlaHalant.dv;
+	sub Ha.dv Halant.dv by HaHalant.dv;
+	sub KaSsa.dv Halant.dv by KaSsaHalf.dv;
+	sub JaNya.dv Halant.dv by JaNyaHalf.dv;
+	sub Ra.dv Halant.dv by RaHalant.dv;
+
+} haln1;
+
+
+} half;
+
+#--------------------------------------------------------------------
+
+feature vatu { # Vattu
+
+	lookup vatu2 {
+		sub KaSsa.dv Vattu.dv by KaSsaRa.dv;
+		sub JaNya.dv Vattu.dv by JaNyaRa.dv;
+} vatu2;
+
+	lookup vatu1 {
+		sub Ka.dv Vattu.dv by KaRa.dv;
+		sub Kha.dv Vattu.dv by KhaRa.dv;
+		sub Ga.dv Vattu.dv by GaRa.dv;
+		sub Gha.dv Vattu.dv by GhaRa.dv;
+		sub Nga.dv Vattu.dv by NgaRa.dv;
+		sub Ca.dv Vattu.dv by CaRa.dv;
+		sub Cha.dv Vattu.dv by ChaRa.dv;
+		sub Ja.dv Vattu.dv by JaRa.dv;
+		sub Jha.dv Vattu.dv by JhaRa.dv;
+		sub Nya.dv Vattu.dv by NyaRa.dv;
+		sub Tta.dv Vattu.dv by TtaRa.dv;
+		sub Dda.dv Vattu.dv by DdaRa.dv;
+		sub Ttha.dv Vattu.dv by TthaRa.dv;
+		sub Ddha.dv Vattu.dv by DdhaRa.dv;
+		sub Nna.dv Vattu.dv by NnaRa.dv;
+		sub Ta.dv Vattu.dv by TaRa.dv;
+		sub Tha.dv Vattu.dv by ThaRa.dv;
+		sub Da.dv Vattu.dv by DaRa.dv;
+		sub Dha.dv Vattu.dv by DhaRa.dv;
+		sub Na.dv Vattu.dv by NaRa.dv;
+		sub Pa.dv Vattu.dv by PaRa.dv;
+		sub Pha.dv Vattu.dv by PhaRa.dv;
+		sub Ba.dv Vattu.dv by BaRa.dv;
+		sub Bha.dv Vattu.dv by BhaRa.dv;
+		sub Ma.dv Vattu.dv by MaRa.dv;
+		sub Ya.dv Vattu.dv by YaRa.dv;
+		sub [La.dv La.MAR.dv] Vattu.dv by LaRa.dv;
+		sub Va.dv Vattu.dv by VaRa.dv;
+		sub [Sha.dv Sha.MAR.dv] Vattu.dv by ShaRa.dv;
+		sub Sa.dv Vattu.dv by SaRa.dv;
+		sub Ssa.dv Vattu.dv by SsaRa.dv;
+		sub Ha.dv Vattu.dv by HaRa.dv;
+		sub Lla.dv Vattu.dv by LlaRa.dv;
+	
+		sub KaNukta.dv Vattu.dv by KaNuktaRa.dv;
+		sub KhaNukta.dv Vattu.dv by KhaNuktaRa.dv;
+		sub GaNukta.dv Vattu.dv by GaNuktaRa.dv;
+		sub JaNukta.dv Vattu.dv by JaNuktaRa.dv;
+		sub PhaNukta.dv Vattu.dv by PhaNuktaRa.dv;
+		sub YaNukta.dv Vattu.dv by YaNuktaRa.dv;
+
+
+} vatu1;
+
+	lookup vatu_half {
+		sub KaHalant.dv Vattu.dv by KaRaHalf.dv;
+		sub GaHalant.dv Vattu.dv by GaRaHalf.dv;
+		sub GhaHalant.dv Vattu.dv by GhaRaHalf.dv;
+		sub ChaHalant.dv Vattu.dv by ChaRaHalant.dv;
+		sub DdhaHalant.dv Vattu.dv by DdhaRaHalant.dv;
+		sub TaHalant.dv Vattu.dv by TaRaHalf.dv;
+		sub DaHalant.dv Vattu.dv by DaRaHalant.dv;
+		sub DhaHalant.dv Vattu.dv by DhaRaHalf.dv;
+		sub VaHalant.dv Vattu.dv by VaRaHalf.dv;
+		sub BhaHalant.dv Vattu.dv by BhaRaHalf.dv;
+		sub SaHalant.dv Vattu.dv by SaRaHalf.dv;
+		sub SsaHalant.dv Vattu.dv by SsaRaHalf.dv;
+		sub ShaHalant.dv Vattu.dv by ShaRaHalf.dv;
+} vatu_half;
+
+}vatu;
+
+
+#--------------------------------------------------------------------
+
+feature blws { # Belowbase substitution
+
+lookup blws1{
+	sub Ka.dv matraU.dv by KamatraU.dv;
+	sub Ka.dv matraUu.dv by KamatraUu.dv;
+	sub Ka.dv matraRu.dv by KamatraRu.dv;
+	sub Kha.dv matraU.dv by KhamatraU.dv;
+	sub Kha.dv matraUu.dv by KhamatraUu.dv;
+	sub Kha.dv matraRu.dv by KhamatraRu.dv;
+	sub Ga.dv matraU.dv by GamatraU.dv;
+	sub Ga.dv matraUu.dv by GamatraUu.dv;
+	sub Ga.dv matraRu.dv by GamatraRu.dv;
+	sub Gha.dv matraU.dv by GhamatraU.dv;
+	sub Gha.dv matraUu.dv by GhamatraUu.dv;
+	sub Gha.dv matraRu.dv by GhamatraRu.dv;
+	sub Nga.dv matraU.dv by NgamatraU.dv;
+	sub Nga.dv matraUu.dv by NgamatraUu.dv;
+	sub Nga.dv matraRu.dv by NgamatraRu.dv;
+	sub Ca.dv matraU.dv by CamatraU.dv;
+	sub Ca.dv matraUu.dv by CamatraUu.dv;
+	sub Ca.dv matraRu.dv by CamatraRu.dv;
+	sub Cha.dv matraU.dv by ChamatraU.dv;
+	sub Cha.dv matraUu.dv by ChamatraUu.dv;
+	sub Cha.dv matraRu.dv by ChamatraRu.dv;
+	sub Ja.dv matraU.dv by JamatraU.dv;
+	sub Ja.dv matraUu.dv by JamatraUu.dv;
+	sub Ja.dv matraRu.dv by JamatraRu.dv;
+	sub Jha.dv matraU.dv by JhamatraU.dv;
+	sub Jha.dv matraUu.dv by JhamatraUu.dv;
+	sub Jha.dv matraRu.dv by JhamatraRu.dv;
+	sub Nya.dv matraU.dv by NyamatraU.dv;
+	sub Nya.dv matraUu.dv by Nyamatrauu.dv;
+	sub Nya.dv matraRu.dv by NyamatraRu.dv;
+	sub Tta.dv matraU.dv by TtamatraU.dv;
+	sub Tta.dv matraUu.dv by TtamatraUu.dv;
+	sub Tta.dv matraRu.dv by TtamatraRu.dv;
+	sub Ttha.dv matraU.dv by TthamatraU.dv;
+	sub Ttha.dv matraUu.dv by TthamatraUu.dv;
+	sub Ttha.dv matraRu.dv by TthamatraRu.dv;
+	sub Dda.dv matraU.dv by DdamatraU.dv;
+	sub Dda.dv matraUu.dv by DdamatraUu.dv;
+	sub Dda.dv matraRu.dv by DdamatraRu.dv;
+	sub Ddha.dv matraU.dv by DdhamatraU.dv;
+	sub Ddha.dv matraUu.dv by DdhamatraUu.dv;
+	sub Ddha.dv matraRu.dv by DdhamatraRu.dv;
+	sub Nna.dv matraU.dv by NnamatraU.dv;
+	sub Nna.dv matraUu.dv by NnamatraUu.dv;
+	sub Nna.dv matraRu.dv by NnamatraRu.dv;
+	sub Ta.dv matraU.dv by TamatraU.dv;
+	sub Ta.dv matraUu.dv by TamatraUu.dv;
+	sub Ta.dv matraRu.dv by TamatraRu.dv;
+	sub Tha.dv matraU.dv by ThamatraU.dv;
+	sub Tha.dv matraUu.dv by ThamatraUu.dv;
+	sub Tha.dv matraRu.dv by ThamatraRu.dv;
+	sub Da.dv matraU.dv by DamatraU.dv;
+	sub Da.dv matraUu.dv by DamatraUu.dv;
+	sub Da.dv matraRu.dv by DamatraRu.dv;
+	sub Dha.dv matraU.dv by DhamatraU.dv;
+	sub Dha.dv matraUu.dv by DhamatraUu.dv;
+	sub Dha.dv matraRu.dv by DhamatraRu.dv;
+	sub Na.dv matraU.dv by NamatraU.dv;
+	sub Na.dv matraUu.dv by NamatraUu.dv;
+	sub Na.dv matraRu.dv by NamatraRu.dv;
+	sub Pa.dv matraU.dv by PamatraU.dv;
+	sub Pa.dv matraUu.dv by PamatraUu.dv;
+	sub Pa.dv matraRu.dv by PamatraRu.dv;
+	sub Pha.dv matraU.dv by PhamatraU.dv;
+	sub Pha.dv matraUu.dv by PhamatraUu.dv;
+	sub Pha.dv matraRu.dv by PhamatraRu.dv;
+	sub Ba.dv matraU.dv by BamatraU.dv;
+	sub Ba.dv matraUu.dv by BamatraUu.dv;
+	sub Ba.dv matraRu.dv by BamatraRu.dv;
+	sub Bha.dv matraU.dv by BhamatraU.dv;
+	sub Bha.dv matraUu.dv by BhamatraUu.dv;
+	sub Bha.dv matraRu.dv by BhamatraRu.dv;
+	sub Ma.dv matraU.dv by MamatraU.dv;
+	sub Ma.dv matraUu.dv by MamatraUu.dv;
+	sub Ma.dv matraRu.dv by MamatraRu.dv;
+	sub Ya.dv matraU.dv by YamatraU.dv;
+	sub Ya.dv matraUu.dv by YamatraUu.dv;
+	sub Ya.dv matraRu.dv by YamatraRu.dv;
+	sub Ra.dv matraU.dv by RamatraU.dv;
+	sub Ra.dv matraUu.dv by RamatraUu.dv;
+	sub La.dv matraU.dv by LamatraU.dv;
+	sub La.dv matraUu.dv by LamatraUu.dv;
+	sub La.dv matraRu.dv by LamatraRu.dv;
+	sub Lla.dv matraU.dv by LlamatraU.dv;
+	sub Lla.dv matraUu.dv by LlamatraUu.dv;
+	sub Lla.dv matraRu.dv by LlamatraRu.dv;
+	sub Va.dv matraU.dv by VamatraU.dv;
+	sub Va.dv matraUu.dv by VamatraUu.dv;
+	sub Va.dv matraRu.dv by VamatraRu.dv;
+	sub Sha.dv matraU.dv by ShamatraU.dv;
+	sub Sha.dv matraUu.dv by ShamatraUu.dv;
+	sub Sha.dv matraRu.dv by ShamatraRu.dv;
+	sub Ssa.dv matraU.dv by SsamatraU.dv;
+	sub Ssa.dv matraUu.dv by SsamatraUu.dv;
+	sub Ssa.dv matraRu.dv by SsamatraRu.dv;
+	sub Sa.dv matraU.dv by SamatraU.dv;
+	sub Sa.dv matraUu.dv by SamatraUu.dv;
+	sub Sa.dv matraRu.dv by SamatraRu.dv;
+	sub Ha.dv matraU.dv by HamatraU.dv;
+	sub Ha.dv matraUu.dv by HamatraUu.dv;
+	sub Ha.dv matraRu.dv by HamatraRu.dv;
+	sub KaSsa.dv matraU.dv by KaSsamatraU.dv;
+	sub JaNya.dv matraU.dv by JaNyamatraU.dv;
+
+
+	sub KaNukta.dv matraU.dv by KaNuktamatraU.dv;
+	sub KaNukta.dv matraUu.dv by KaNuktamatraUu.dv;
+	sub KaNukta.dv matraRu.dv by KaNuktamatraRu.dv;
+	sub KhaNukta.dv matraU.dv by KhaNuktamatraU.dv;
+	sub KhaNukta.dv matraUu.dv by KhaNuktamatraUu.dv;
+	sub KhaNukta.dv matraRu.dv by KhaNuktamatraRu.dv;
+	sub GaNukta.dv matraU.dv by GaNuktamatraU.dv;
+	sub GaNukta.dv matraUu.dv by GaNuktamatraUu.dv;
+	sub GaNukta.dv matraRu.dv by GaNuktamatraRu.dv;
+	sub JaNukta.dv matraU.dv by JaNuktamatraU.dv;
+	sub JaNukta.dv matraUu.dv by JaNuktamatraUu.dv;
+	sub JaNukta.dv matraRu.dv by JaNuktamatraRu.dv;
+	sub DdaNukta.dv matraU.dv by DdaNuktamatraU.dv;
+	sub DdaNukta.dv matraUu.dv by DdaNuktamatraUu.dv;
+	sub DdaNukta.dv matraRu.dv by DdaNuktamatraRu.dv;
+	sub DdhaNukta.dv matraU.dv by DdhaNuktamatraU.dv;
+	sub DdhaNukta.dv matraUu.dv by DdhaNuktamatraUu.dv;
+	sub DdhaNukta.dv matraRu.dv by DdhaNuktamatraRu.dv;
+	sub NaNukta.dv matraU.dv by NaNuktamatraU.dv;
+	sub NaNukta.dv matraUu.dv by NaNuktamatraUu.dv;
+	sub NaNukta.dv matraRu.dv by NaNuktamatraRu.dv;
+	sub PhaNukta.dv matraU.dv by PhaNuktamatraU.dv;
+	sub PhaNukta.dv matraUu.dv by PhaNuktamatraUu.dv;
+	sub PhaNukta.dv matraRu.dv by PhaNuktamatraRu.dv;
+	sub YaNukta.dv matraU.dv by YaNuktamatraU.dv;
+	sub YaNukta.dv matraUu.dv by YaNuktamatraUu.dv;
+	sub YaNukta.dv matraRu.dv by YaNuktamatraRu.dv;
+	sub RaNukta.dv matraU.dv by RaNuktamatraU.dv;
+	sub RaNukta.dv matraUu.dv by RaNuktamatraUu.dv;
+	sub LlaNukta.dv matraU.dv by LlaNuktamatraU.dv;
+	sub LlaNukta.dv matraUu.dv by LlaNuktamatraUu.dv;
+	sub LlaNukta.dv matraRu.dv by LlaNuktamatraRu.dv;
+
+} blws1;
+
+lookup blws2{
+sub KaRa.dv matraU.dv by KaRamatraU.dv; 
+sub KaRa.dv matraUu.dv by KaRamatraUu.dv; 
+sub KaHalf.dv TamatraU.dv by KaTamatraU.dv; 
+sub KaHalf.dv TamatraUu.dv by KaTamatraUu.dv; 
+sub KaHalf.dv TamatraRu.dv by KaTamatraRu.dv; 
+sub GaRa.dv matraU.dv by GaRamatraU.dv; 
+sub GaRa.dv matraUu.dv by GaRamatraUu.dv; 
+sub GaRa.dv matraRu.dv by GaRamatraRu.dv; 
+sub GhaRa.dv matraU.dv by GhaRamatraU.dv; 
+sub GhaRa.dv matraUu.dv by GhaRamatraUu.dv; 
+sub TtaRa.dv matraU.dv by TtaRamatraU.dv; 
+sub TtaHalant.dv RamatraUu.dv by TtaRamatraUu.dv; 
+sub TtaHalant.dv TtamatraU.dv by TtaTtamatraU.dv; 
+sub TtaHalant.dv TtamatraUu.dv by TtaTtamatraUu.dv; 
+sub TtaHalant.dv YamatraU.dv by TtaYamatraU.dv; 
+sub TtaHalant.dv YamatraUu.dv by TtaYamatraUu.dv; 
+sub TthaHalant.dv YamatraU.dv by TthaYamatraU.dv; 
+sub DdaHalant.dv DdamatraU.dv by DdaDdamatraU.dv; 
+sub DdaHalant.dv DdamatraUu.dv by DdaDdamatraUu.dv; 
+sub DdaHalant.dv YamatraU.dv by DdaYamatraU.dv; 
+sub DdaHalant.dv YamatraUu.dv by DdaYamatraUu.dv; 
+sub DdaHalant.dv RamatraU.dv by DdaRamatraU.dv; 
+sub DdaHalant.dv RamatraUu.dv by DdaRamatraUu.dv; 
+sub TaHalf.dv TamatraU.dv by TaTamatraU.dv; 
+sub TaHalf.dv TamatraUu.dv by TaTamatraUu.dv; 
+sub TaHalf.dv TamatraRu.dv by TaTamatraRu.dv; 
+sub TaHalf.dv NamatraU.dv by TaNamatraU.dv; 
+sub TaHalf.dv NamatraUu.dv by TaNamatraUu.dv; 
+sub TaHalf.dv YamatraU.dv by TaYamatraU.dv; 
+sub TaHalf.dv YamatraUu.dv by TaYamatraUu.dv; 
+sub TaRa.dv matraU.dv by TaRamatraU.dv; 
+sub TaRa.dv matraUu.dv by TaRamatraUu.dv; 
+sub ThaRa.dv matraU.dv by ThaRamatraU.dv; 
+sub ThaRa.dv matraUu.dv by ThaRamatraUu.dv; 
+sub DaHalant.dv GamatraU.dv by DaGamatraU.dv; 
+sub DaHalant.dv GamatraUu.dv by DaGamatraUu.dv; 
+sub DaHalant.dv GamatraRu.dv by DaGamatraRu.dv; 
+sub DaHalant.dv DamatraU.dv by DaDamatraU.dv; 
+sub DaHalant.dv DamatraUu.dv by DaDamatraUu.dv; 
+sub DaHalant.dv DamatraRu.dv by DaDamatraRu.dv; 
+sub DaHalant.dv DhamatraU.dv by DaDhamatraU.dv; 
+sub DaHalant.dv DhamatraUu.dv by DaDhamatraUu.dv; 
+sub DaHalant.dv DhamatraRu.dv by DaDhamatraRu.dv; 
+sub DaHalant.dv NamatraU.dv by DaNamatraU.dv; 
+sub DaHalant.dv NamatraUu.dv by DaNamatraUu.dv; 
+sub DaHalant.dv BamatraU.dv by DaBamatraU.dv; 
+sub DaHalant.dv BamatraUu.dv by DaBamatraUu.dv; 
+sub DaHalant.dv BamatraRu.dv by DaBamatraRu.dv; 
+sub DaHalant.dv BhamatraU.dv by DaBhamatraU.dv; 
+sub DaHalant.dv BhamatraUu.dv by DaBhamatraUu.dv; 
+sub DaHalant.dv YamatraU.dv by DaYamatraU.dv; 
+sub DaHalant.dv YamatraUu.dv by DaYamatraUu.dv; 
+sub DaHalant.dv YamatraRu.dv by DaYamatraRu.dv; 
+sub DaRa.dv matraU.dv by DaRamatraU.dv; 
+sub DaRa.dv matraUu.dv by DaRamatraUu.dv; 
+sub DaRa.dv matraRu.dv by DaRamatraRu.dv; 
+sub DaHalant.dv VamatraU.dv by DaVamatraU.dv; 
+sub DaHalant.dv VamatraUu.dv by DaVamatraUu.dv; 
+sub DaHalant.dv VamatraRu.dv by DaVamatraRu.dv; 
+sub DhaRa.dv matraU.dv by DhaRamatraU.dv; 
+sub DhaRa.dv matraUu.dv by DhaRamatraUu.dv; 
+sub NaHalf.dv NamatraU.dv by NaNamatraU.dv; 
+sub NaHalf.dv NamatraUu.dv by NaNamatraUu.dv; 
+sub NaHalf.dv ShamatraU.dv by NaShamatraU.dv; 
+sub NaHalf.dv ShamatraUu.dv by NaShamatraUu.dv; 
+sub NaHalf.dv ShamatraU.MAR.dv by NaShamatraU.MAR.dv; 
+sub NaHalf.dv ShamatraUu.MAR.dv by NaShamatraUu.MAR.dv; 
+sub PaHalf.dv PamatraU.dv by PaPamatraU.dv; 
+sub PaHalf.dv PamatraUu.dv by PaPamatraUu.dv; 
+sub PaHalf.dv PhamatraU.dv by PaPhamatraU.dv; 
+sub PaRa.dv matraU.dv by PaRamatraU.dv; 
+sub PaRa.dv matraUu.dv by PaRamatraUu.dv; 
+sub PaRa.dv matraRu.dv by PaRamatraRu.dv; 
+sub PhaRa.dv matraU.dv by PhaRamatraU.dv; 
+sub PhaRa.dv matraUu.dv by PhaRamatraUu.dv;  
+sub BaRa.dv matraU.dv by BaRamatraU.dv; 
+sub BaRa.dv matraUu.dv by BaRamatraUu.dv; 
+sub BhaRa.dv matraU.dv by BhaRamatraU.dv; 
+sub BhaRa.dv matraUu.dv by BhaRamatraUu.dv; 
+sub BhaRa.dv matraRu.dv by BhaRamatraRu.dv; 
+sub LaHalf.dv LamatraU.dv by LaLamatraU.dv; 
+sub LaHalf.dv LamatraUu.dv by LaLamatraUu.dv; 
+sub LaHalf.dv LamatraRu.dv by LaLamatraRu.dv; 
+sub MaRa.dv matraU.dv by MaRamatraU.dv; 
+sub MaHalf.dv MamatraU.dv by MaMamatraU.dv; 
+sub MaHalf.dv MamatraUu.dv by MaMamatraUu.dv; 
+sub VaRa.dv matraU.dv by VaRamatraU.dv; 
+sub ShaHalf.dv CamatraU.dv by ShaCamatraU.dv; 
+sub ShaHalf.dv CamatraUu.dv by ShaCamatraUu.dv; 
+sub ShaHalf.dv NamatraU.dv by ShaNamatraU.dv; 
+sub ShaHalf.dv NamatraUu.dv by ShaNamatraUu.dv; 
+sub ShaRa.dv matraU.dv by ShaRamatraU.dv; 
+sub ShaRa.dv matraUu.dv by ShaRamatraUu.dv; 
+sub ShaRa.dv matraRu.dv by ShaRamatraRu.dv; 
+sub ShaHalf.dv LamatraU.dv by ShaLamatraU.dv; 
+sub ShaHalf.dv LamatraUu.dv by ShaLamatraUu.dv; 
+sub SsaHalf.dv TtamatraU.dv by SsaTtamatraU.dv; 
+sub SsaHalf.dv TtamatraUu.dv by SsaTtamatraUu.dv; 
+sub SsaHalf.dv TthamatraU.dv by SsaTthamatraU.dv; 
+sub SsaHalf.dv TthamatraUu.dv by SsaTthamatraUu.dv; 
+sub SsaHalf.dv NnamatraU.dv by SsaNnamatraU.dv; 
+sub SsaHalf.dv NnamatraUu.dv by SsaNnamatraUu.dv; 
+sub SsaHalf.dv PamatraU.dv by SsaPamatraU.dv; 
+sub SsaHalf.dv PamatraUu.dv by SsaPamatraUu.dv; 
+sub SsaRa.dv matraU.dv by SsaRamatraU.dv; 
+sub SsaRa.dv matraUu.dv by SsaRamatraUu.dv; 
+sub SaRa.dv matraUu.dv by SaRamatraUu.dv; 
+sub HaHalant.dv NamatraU.dv by HaNamatraU.dv; 
+sub HaHalant.dv YamatraU.dv by HaYamatraU.dv; 
+sub HaHalant.dv YamatraUu.dv by HaYamatraUu.dv; 
+sub HaHalant.dv RamatraU.dv by HaRamatraU.dv; 
+sub HaHalant.dv RamatraUu.dv by HaRamatraUu.dv; 
+
+}blws2;
+
+} blws;
+
+
+#--------------------------------------------------------------------
+
+
+feature pres { # Pre-base Substitutions
+
+
+lookup pres4 { # Four-letter conjuncts
+	sub KaSsaHalf.dv MaHalf.dv Ya.dv by KaSsaMaYa.dv;
+	sub KaHalf.dv SaHalf.dv PaRa.dv by KaSaPaRa.dv;
+	sub KaHalf.dv SaHalf.dv PaHalf.dv La.dv by KaSaPaLa.dv;
+	sub TaHalf.dv SaHalf.dv NaHalf.dv Ya.dv by TaSaNaYa.dv;
+	sub NaHalf.dv PhaHalf.dv LaHalf.dv Ya.dv by NaPhaLaYa.dv;
+	sub NaHalf.dv TaRaHalf.dv Ya.dv by NaTaRaYa.dv;
+	sub NaHalf.dv SaHalf.dv KaRa.dv by NaSaKaRa.dv;
+	sub NaHalf.dv SaHalf.dv MaHalf.dv Ya.dv by NaSaMaYa.dv;
+	sub BaHalf.dv SaHalf.dv TtaRa.dv by BaSaTtaRa.dv;
+	sub KaHalf.dv SaHalf.dv TtaRa.dv by KaSaTtaRa.dv;
+} pres4;
+
+lookup pres3 { # Three-letter conjuncts
+	sub KaSsaHalf.dv Ma.dv by KaSsaMa.dv;
+	sub KaSsaHalf.dv Ya.dv by KaSsaYa.dv;
+	sub KaSsaHalf.dv Va.dv by KaSsaVa.dv;
+	sub JaNyaHalf.dv Ya.dv by JaNyaYa.dv;
+#	sub JaNukta.dv Halant.dv Nya.dv by JaNuktaNya.dv;
+	sub TaRaHalf.dv Ya.dv by TaRaYa.dv;
+	sub ShaRaHalf.dv Ya.dv by ShaRaYa.dv;
+	sub GaRaHalf.dv Ya.dv by GaRaYa.dv;
+	sub DaRaHalant.dv Ya.dv by DaRaYa.dv;
+	sub BhaRaHalf.dv Ya.dv by BhaRaYa.dv;
+	sub KaHalf.dv SaHalf.dv Pa.dv by KaSaPa.dv;
+	sub KaHalf.dv TaHalf.dv Ya.dv by KaTaYa.dv;
+	sub KaHalf.dv TaRa.dv by KaTaRa.dv;
+	sub KaHalf.dv TaHalf.dv Va.dv by KaTaVa.dv;
+	sub KaHalf.dv PaRa.dv by KaPaRa.dv;
+	sub KaHalf.dv VaHalf.dv Ya.dv by KaVaYa.dv;
+	sub KaHalf.dv SaHalf.dv Tta.dv by KaSaTta.dv;
+	sub KaHalf.dv SaHalf.dv Dda.dv by KaSaDda.dv;
+	sub KaHalf.dv SaHalf.dv Ta.dv by KaSaTa.dv;
+	sub KhaHalf.dv KhaHalf.dv Ya.dv by KhaKhaYa.dv;
+	sub GaHalf.dv DhaHalf.dv Ya.dv by GaDhaYa.dv;
+	sub GaHalf.dv DhaHalf.dv Va.dv by GaDhaVa.dv;
+	sub GaHalf.dv NaHalf.dv Ya.dv by GaNaYa.dv;
+	sub GaHalf.dv BhaHalf.dv Ya.dv by GaBhaYa.dv;
+	sub CaHalf.dv ChaHalant.dv Va.dv by CaChaVa.dv;
+	sub ChaRaHalant.dv Ya.dv by ChaRaYa.dv;
+	sub JaHalf.dv JaNya.dv by JaJaNya.dv;
+	sub JaHalf.dv JaHalf.dv Ya.dv by JaJaYa.dv;
+	sub JaHalf.dv JaHalf.dv Va.dv by JaJaVa.dv;
+	sub NyaHalf.dv CaHalf.dv Ya.dv by NyaCaYa.dv;
+	sub NyaHalf.dv JaHalf.dv Ya.dv by NyaJaYa.dv;
+	sub TtaHalant.dv TtaHalant.dv Ya.dv by TtaTtaYa.dv;
+	sub TthaHalant.dv TthaHalant.dv Ya.dv by TthaTthaYa.dv;
+	sub DdaHalant.dv DdaHalant.dv Ya.dv by DdaDdaYa.dv;
+	sub DdhaRaHalant.dv Ya.dv by DdhaRaYa.dv;
+	sub TaHalf.dv KaHalf.dv Ya.dv by TaKaYa.dv;
+	sub TaHalf.dv KaRa.dv by TaKaRa.dv;
+	sub TaHalf.dv KaHalf.dv Va.dv by TaKaVa.dv;
+	sub TaHalf.dv KaSsa.dv by TaKaSsa.dv;
+	sub TaHalf.dv KhaHalf.dv Na.dv by TaKhaNa.dv;
+	sub TaHalf.dv KhaRa.dv by TaKhaRa.dv;
+	sub TaHalf.dv TaHalf.dv Ya.dv by TaTaYa.dv;
+	sub TaHalf.dv TaHalf.dv Va.dv by TaTaVa.dv;
+	sub TaHalf.dv NaHalf.dv Ya.dv by TaNaYa.dv;
+	sub TaHalf.dv PaRa.dv by TaPaRa.dv;
+	sub TaHalf.dv PaHalf.dv La.dv by TaPaLa.dv;
+	sub TaHalf.dv MaHalf.dv Ya.dv by TaMaYa.dv;
+	sub TaHalf.dv SaHalf.dv Na.dv by TaSaNa.dv;
+	sub TaHalf.dv SaHalf.dv Ya.dv by TaSaYa.dv;
+	sub TaHalf.dv SaHalf.dv Va.dv by TaSaVa.dv;
+	sub TaHalf.dv SaHalf.dv Pha.dv by TaSaPha.dv;
+	sub DaHalant.dv DaHalant.dv Ya.dv by DaDaYa.dv;
+	sub DaHalant.dv DhaHalf.dv Ya.dv by DaDhaYa.dv;
+	sub DaHalant.dv BhaHalf.dv Ya.dv by DaBhaYa.dv;
+	sub DaHalant.dv VaHalf.dv Ya.dv by DaVaYa.dv;
+	sub DaHalant.dv DhaHalf.dv Va.dv by DaDhaVa.dv;
+	sub DhaHalf.dv NaHalf.dv Ya.dv by DhaNaYa.dv;
+	sub NaHalf.dv NaHalf.dv Ya.dv by NaNaYa.dv;
+	sub NaHalf.dv KaHalf.dv Sa.dv by NaKaSa.dv;
+	sub NaHalf.dv TaHalf.dv Ya.dv by NaTaYa.dv;
+	sub NaHalf.dv TaRa.dv by NaTaRa.dv;
+	sub NaHalf.dv TaHalf.dv Sa.dv by NaTaSa.dv;
+	sub NaHalf.dv ThaHalf.dv Ya.dv by NaThaYa.dv;
+	sub NaHalf.dv ThaHalf.dv Va.dv by NaThaVa.dv;
+	sub NaHalf.dv DaHalant.dv Va.dv by NaDaVa.dv;
+	sub NaHalf.dv DaRa.dv by NaDaRa.dv;
+	sub NaHalf.dv DhaHalf.dv Ya.dv by NaDhaYa.dv;
+	sub NaHalf.dv DhaRa.dv by NaDhaRa.dv;
+	sub NaHalf.dv DhaHalf.dv Va.dv by NaDhaVa.dv;
+	sub NaHalf.dv PaRa.dv by NaPaRa.dv;
+	sub NaHalf.dv BhaHalf.dv Ya.dv by NaBhaYa.dv;
+	sub NaHalf.dv BhaHalf.dv Va.dv by NaBhaVa.dv;
+	sub NaHalf.dv MaHalf.dv Ya.dv by NaMaYa.dv;
+	sub NaHalf.dv VaHalf.dv Ha.dv by NaVaHa.dv;
+	sub NaHalf.dv SaHalf.dv Tta.dv by NaSaTta.dv;
+	sub NaHalf.dv SaHalf.dv Ya.dv by NaSaYa.dv;
+	sub NaHalf.dv HaHalant.dv Ya.dv by NaHaYa.dv;
+	sub PaHalf.dv TaHalf.dv Ya.dv by PaTaYa.dv;
+	sub PaHalf.dv PaHalf.dv Ya.dv by PaPaYa.dv;
+	sub BaHalf.dv JaHalf.dv Ya.dv by BaJaYa.dv;
+	sub BaHalf.dv DhaHalf.dv Va.dv by BaDhaVa.dv;
+	sub BaHalf.dv BhaRa.dv by BaBhaRa.dv;
+	sub BaHalf.dv LaHalf.dv Ya.dv by BaLaYa.dv;
+	sub MaHalf.dv PaRa.dv by MaPaRa.dv;
+	sub MaHalf.dv BaHalf.dv Ya.dv by MaBaYa.dv;
+	sub MaHalf.dv BaRa.dv by MaBaRa.dv;
+	sub MaHalf.dv BhaHalf.dv Ya.dv by MaBhaYa.dv;
+	sub MaHalf.dv BhaRa.dv by MaBhaRa.dv;
+	sub MaHalf.dv BhaHalf.dv Va.dv by MaBhaVa.dv;
+	sub LaHalf.dv KaHalf.dv Ya.dv by LaKaYa.dv;
+	sub LaHalf.dv ThaHalf.dv Ya.dv by LaThaYa.dv;
+	sub LaHalf.dv DaRa.dv by LaDaRa.dv;
+	sub LaHalf.dv LaHalf.dv Ya.dv by LaLaYa.dv;
+	sub LaHalf.dv VaHalf.dv Dda.dv by LaVaDda.dv;
+	sub LaHalf.dv HaHalant.dv Ya.dv by LaHaYa.dv;
+	sub SsaHalf.dv TtaHalant.dv Ya.dv by SsaTtaYa.dv;
+	sub SsaHalf.dv TtaHalant.dv Va.dv by SsaTtaVa.dv;
+	sub SsaHalf.dv TthaHalant.dv Ya.dv by SsaTthaYa.dv;
+	sub SsaHalf.dv KaRa.dv by SsaKaRa.dv;
+	sub SsaHalf.dv NnaHalf.dv Ya.dv by SsaNnaYa.dv;
+	sub SsaHalf.dv PaRa.dv by SsaPaRa.dv;
+	sub SsaHalf.dv MaHalf.dv Ya.dv by SsaMaYa.dv;
+	sub SaHalf.dv KaHalf.dv Va.dv by SaKaVa.dv;
+	sub SaHalf.dv TaHalf.dv Ya.dv by SaTaYa.dv;
+	sub SaHalf.dv TaRa.dv by SaTaRa.dv;
+	sub SaHalf.dv TaHalf.dv Va.dv by SaTaVa.dv;
+	sub SaHalf.dv ThaHalf.dv Ya.dv by SaThaYa.dv;
+	sub SaHalf.dv PaRa.dv by SaPaRa.dv;
+	sub SaHalf.dv MaHalf.dv Ya.dv by SaMaYa.dv;
+	sub HaHalant.dv MaHalf.dv Ya.dv by HaMaYa.dv;
+	sub SsaHalf.dv TtaRa.dv by SsaTtaRa.dv;
+} pres3;
+	
+lookup pres2 { # Two-letter conjuncts
+	sub KaHalf.dv Ka.dv by KaKa.dv;
+	sub KaHalf.dv Kha.dv by KaKha.dv;
+	sub KaHalf.dv Ca.dv by KaCa.dv;
+	sub KaHalf.dv Ja.dv by KaJa.dv;
+	sub KaHalf.dv Jha.dv by KaJha.dv;
+	sub KaHalf.dv Tta.dv by KaTta.dv;
+	sub KaHalf.dv Nna.dv by KaNna.dv;
+	sub KaHalf.dv Ta.dv by KaTa.dv;
+	sub KaHalf.dv Tha.dv by KaTha.dv;
+	sub KaHalf.dv Da.dv by KaDa.dv;
+	sub KaHalf.dv Na.dv by KaNa.dv;
+	sub KaHalf.dv Pa.dv by KaPa.dv;
+	sub KaHalf.dv Pha.dv by KaPha.dv;
+	sub KaHalf.dv Ma.dv by KaMa.dv;
+	sub KaHalf.dv Ya.dv by KaYa.dv;
+	sub KaHalf.dv La.dv by KaLa.dv;
+	sub KaHalf.dv Va.dv by KaVa.dv;
+	sub KaHalf.dv Sha.dv by KaSha.dv;
+	sub KaHalf.dv Sa.dv by KaSa.dv;
+	sub KaHalf.dv matraLru.dv by KamatraLru.dv;
+	sub KaHalf.dv matraLruu.dv by KamatraLruu.dv;
+	sub KhaHalf.dv Kha.dv by KhaKha.dv;
+	sub KhaHalf.dv Ta.dv by KhaTa.dv;
+	sub KhaHalf.dv Na.dv by KhaNa.dv;
+	sub KhaHalf.dv Ma.dv by KhaMa.dv;
+	sub KhaHalf.dv Ya.dv by KhaYa.dv;
+	sub KhaHalf.dv Va.dv by KhaVa.dv;
+	sub KhaHalf.dv Sha.dv by KhaSha.dv;
+	sub GaHalf.dv Ga.dv by GaGa.dv;
+	sub GaHalf.dv Gha.dv by GaGha.dv;
+	sub GaHalf.dv Ja.dv by GaJa.dv;
+	sub GaHalf.dv Nna.dv by GaNna.dv;
+	sub GaHalf.dv Da.dv by GaDa.dv;
+	sub GaHalf.dv Dha.dv by GaDha.dv;
+	sub GaHalf.dv Na.dv by GaNa.dv;
+	sub GaHalf.dv Ba.dv by GaBa.dv;
+	sub GaHalf.dv Bha.dv by GaBha.dv;
+	sub GaHalf.dv Ma.dv by GaMa.dv;
+	sub GaHalf.dv Ya.dv by GaYa.dv;
+	sub GaHalf.dv La.dv by GaLa.dv;
+	sub GaHalf.dv Va.dv by GaVa.dv;
+	sub GaHalf.dv Sa.dv by GaSa.dv;
+	sub GhaHalf.dv Na.dv by GhaNa.dv;
+	sub GhaHalf.dv Ma.dv by GhaMa.dv;
+	sub GhaHalf.dv Ya.dv by GhaYa.dv;
+	sub NgaHalant.dv Ka.dv by NgaKa.dv;
+	sub NgaHalant.dv Ga.dv by NgaGa.dv;
+	sub NgaHalant.dv Ma.dv by NgaMa.dv;
+	sub NgaHalant.dv Ya.dv by NgaYa.dv;
+	sub CaHalf.dv Ca.dv by CaCa.dv;
+	sub CaHalf.dv Cha.dv by CaCha.dv;
+	sub CaHalf.dv Na.dv by CaNa.dv;
+	sub CaHalf.dv Ma.dv by CaMa.dv;
+	sub CaHalf.dv Ya.dv by CaYa.dv;
+	sub ChaHalant.dv Ya.dv by ChaYa.dv;
+	sub ChaHalant.dv Va.dv by ChaVa.dv;
+	sub JaHalf.dv Ka.dv by JaKa.dv;
+	sub JaHalf.dv Ja.dv by JaJa.dv;
+	sub JaHalf.dv Jha.dv by JaJha.dv;
+	sub JaHalf.dv Tta.dv by JaTta.dv;
+	sub JaHalf.dv Dda.dv by JaDda.dv;
+	sub JaHalf.dv Ta.dv by JaTa.dv;
+	sub JaHalf.dv Da.dv by JaDa.dv;
+	sub JaHalf.dv Na.dv by JaNa.dv;
+	sub JaHalf.dv Ba.dv by JaBa.dv;
+	sub JaHalf.dv Ma.dv by JaMa.dv;
+	sub JaHalf.dv Ya.dv by JaYa.dv;
+	sub JaHalf.dv Va.dv by JaVa.dv;
+	sub JhaHalf.dv Na.dv by JhaNa.dv;
+	sub JhaHalf.dv Ma.dv by JhaMa.dv;
+	sub JhaHalf.dv Ya.dv by JhaYa.dv;
+	sub JhaHalf.dv Jha.dv by JhaJha.dv;
+	sub NyaHalf.dv Ca.dv by NyaCa.dv;
+	sub NyaHalf.dv Cha.dv by NyaCha.dv;
+	sub NyaHalf.dv Ja.dv by NyaJa.dv;
+	sub NyaHalf.dv Sha.dv by NyaSha.dv;
+	sub TtaHalant.dv Tta.dv by TtaTta.dv;
+	sub TtaHalant.dv Ttha.dv by TtaTtha.dv;
+	sub TtaHalant.dv Ya.dv by TtaYa.dv;
+	sub TtaHalant.dv Va.dv by TtaVa.dv;
+	sub TthaHalant.dv Ya.dv by TthaYa.dv;
+	sub TthaHalant.dv Ttha.dv by TthaTtha.dv;
+	sub DdaHalant.dv Dda.dv by DdaDda.dv;
+	sub DdaHalant.dv Ddha.dv by DdaDdha.dv;
+	sub DdaHalant.dv Ya.dv by DdaYa.dv;
+	sub DdhaHalant.dv Ya.dv by DdhaYa.dv;
+	sub DdhaHalant.dv Ddha.dv by DdhaDdha.dv;
+	sub NnaHalf.dv Tta.dv by NnaTta.dv;
+	sub NnaHalf.dv Ttha.dv by NnaTtha.dv;
+	sub NnaHalf.dv Dda.dv by NnaDda.dv;
+	sub NnaHalf.dv Ddha.dv by NnaDdha.dv;
+	sub NnaHalf.dv Nna.dv by NnaNna.dv;
+	sub NnaHalf.dv Ma.dv by NnaMa.dv;
+	sub NnaHalf.dv Ya.dv by NnaYa.dv;
+	sub NnaHalf.dv Va.dv by NnaVa.dv;
+	sub NnaHalf.dv Ha.dv by NnaHa.dv;
+	sub TaHalf.dv Ka.dv by TaKa.dv;
+	sub TaHalf.dv Kha.dv by TaKha.dv;
+	sub TaHalf.dv Ta.dv by TaTa.dv;
+	sub TaHalf.dv Tha.dv by TaTha.dv;
+	sub TaHalf.dv Na.dv by TaNa.dv;
+	sub TaHalf.dv Pa.dv by TaPa.dv;
+	sub TaHalf.dv Pha.dv by TaPha.dv;
+	sub TaHalf.dv Ma.dv by TaMa.dv;
+	sub TaHalf.dv Ya.dv by TaYa.dv;
+	sub TaHalf.dv La.dv by TaLa.dv;
+	sub TaHalf.dv Va.dv by TaVa.dv;
+	sub TaHalf.dv Sa.dv by TaSa.dv;
+	sub ThaHalf.dv Tha.dv by ThaTha.dv;
+	sub ThaHalf.dv Ya.dv by ThaYa.dv;
+	sub ThaHalf.dv Va.dv by ThaVa.dv;
+	sub DaHalant.dv Ga.dv by DaGa.dv;
+	sub DaHalant.dv Da.dv by DaDa.dv;
+	sub DaHalant.dv Va.dv by DaVa.dv;
+	sub DaHalant.dv Dha.dv by DaDha.dv;
+	sub DaHalant.dv Na.dv by DaNa.dv;
+	sub DaHalant.dv Ba.dv by DaBa.dv;
+	sub DaHalant.dv Bha.dv by DaBha.dv;
+	sub DaHalant.dv Ma.dv by DaMa.dv;
+	sub DaHalant.dv Ya.dv by DaYa.dv;
+	sub DhaHalf.dv Na.dv by DhaNa.dv;
+	sub DhaHalf.dv Ma.dv by DhaMa.dv;
+	sub DhaHalf.dv Ya.dv by DhaYa.dv;
+	sub DhaHalf.dv Va.dv by DhaVa.dv;
+	sub NaHalf.dv Ka.dv by NaKa.dv;
+	sub NaHalf.dv Ga.dv by NaGa.dv;
+	sub NaHalf.dv Ca.dv by NaCa.dv;
+	sub NaHalf.dv Cha.dv by NaCha.dv;
+	sub NaHalf.dv Ja.dv by NaJa.dv;
+	sub NaHalf.dv Tta.dv by NaTta.dv;
+	sub NaHalf.dv Dda.dv by NaDda.dv;
+	sub NaHalf.dv Ta.dv by NaTa.dv;
+	sub NaHalf.dv Tha.dv by NaTha.dv;
+	sub NaHalf.dv Da.dv by NaDa.dv;
+	sub NaHalf.dv Dha.dv by NaDha.dv;
+	sub NaHalf.dv Na.dv by NaNa.dv;
+	sub NaHalf.dv Pa.dv by NaPa.dv;
+	sub NaHalf.dv Pha.dv by NaPha.dv;
+	sub NaHalf.dv Bha.dv by NaBha.dv;
+	sub NaHalf.dv Ma.dv by NaMa.dv;
+	sub NaHalf.dv Ya.dv by NaYa.dv;
+	sub NaHalf.dv Va.dv by NaVa.dv;
+	sub NaHalf.dv Sha.dv by NaSha.dv;
+	sub NaHalf.dv Sa.dv by NaSa.dv;
+	sub NaHalf.dv Ha.dv by NaHa.dv;
+	sub PaHalf.dv Cha.dv by PaCha.dv;
+	sub PaHalf.dv Tta.dv by PaTta.dv;
+	sub PaHalf.dv Ta.dv by PaTa.dv;
+	sub PaHalf.dv Na.dv by PaNa.dv;
+	sub PaHalf.dv Pa.dv by PaPa.dv;
+	sub PaHalf.dv Pha.dv by PaPha.dv;
+	sub PaHalf.dv Ma.dv by PaMa.dv;
+	sub PaHalf.dv Ya.dv by PaYa.dv;
+	sub PaHalf.dv La.dv by PaLa.dv;
+	sub PaHalf.dv Va.dv by PaVa.dv;
+	sub PaHalf.dv Sha.dv by PaSha.dv;
+	sub PaHalf.dv Sa.dv by PaSa.dv;
+	sub PaHalf.dv matraLru.dv by PamatraLru.dv;
+	sub PaHalf.dv matraLruu.dv by PamatraLruu.dv;
+	sub PhaHalf.dv Ja.dv by PhaJa.dv;
+	sub PhaHalf.dv Tta.dv by PhaTta.dv;
+	sub PhaHalf.dv Ta.dv by PhaTa.dv;
+	sub PhaHalf.dv Tha.dv by PhaTha.dv;
+	sub PhaHalf.dv Pa.dv by PhaPa.dv;
+	sub PhaHalf.dv Pha.dv by PhaPha.dv;
+	sub PhaHalf.dv Ya.dv by PhaYa.dv;
+	sub PhaHalf.dv La.dv by PhaLa.dv;
+	sub PhaHalf.dv Sha.dv by PhaSha.dv;
+	sub BaHalf.dv Ja.dv by BaJa.dv;
+	sub BaHalf.dv Jha.dv by BaJha.dv;
+	sub BaHalf.dv Dda.dv by BaDda.dv;
+	sub BaHalf.dv Ta.dv by BaTa.dv;
+	sub BaHalf.dv Da.dv by BaDa.dv;
+	sub BaHalf.dv Dha.dv by BaDha.dv;
+	sub BaHalf.dv Na.dv by BaNa.dv;
+	sub BaHalf.dv Ba.dv by BaBa.dv;
+	sub BaHalf.dv Bha.dv by BaBha.dv;
+	sub BaHalf.dv Ya.dv by BaYa.dv;
+	sub BaHalf.dv La.dv by BaLa.dv;
+	sub BaHalf.dv Va.dv by BaVa.dv;
+	sub BaHalf.dv Sha.dv by BaSha.dv;
+	sub BaHalf.dv Sa.dv by BaSa.dv;
+	sub BaHalf.dv JaNukta.dv by BaJaNukta.dv;
+	sub BhaHalf.dv Ya.dv by BhaYa.dv;
+	sub BhaHalf.dv La.dv by BhaLa.dv;
+	sub BhaHalf.dv Va.dv by BhaVa.dv;
+	sub MaHalf.dv Ta.dv by MaTa.dv;
+	sub MaHalf.dv Da.dv by MaDa.dv;
+	sub MaHalf.dv Na.dv by MaNa.dv;
+	sub MaHalf.dv Pa.dv by MaPa.dv;
+	sub MaHalf.dv Pha.dv by MaPha.dv;
+	sub MaHalf.dv Ba.dv by MaBa.dv;
+	sub MaHalf.dv Ma.dv by MaMa.dv;
+	sub MaHalf.dv Bha.dv by MaBha.dv;
+	sub MaHalf.dv Ya.dv by MaYa.dv;
+	sub MaHalf.dv La.dv by MaLa.dv;
+	sub MaHalf.dv Va.dv by MaVa.dv;
+	sub MaHalf.dv Sha.dv by MaSha.dv;
+	sub MaHalf.dv Sa.dv by MaSa.dv;
+	sub MaHalf.dv Ha.dv by MaHa.dv;
+	sub YaHalf.dv Ya.dv by YaYa.dv;
+	sub LaHalf.dv Ka.dv by LaKa.dv;
+	sub LaHalf.dv Kha.dv by LaKha.dv;
+	sub LaHalf.dv Ga.dv by LaGa.dv;
+	sub LaHalf.dv Ca.dv by LaCa.dv;
+	sub LaHalf.dv Ja.dv by LaJa.dv;
+	sub LaHalf.dv Tta.dv by LaTta.dv;
+	sub LaHalf.dv Ttha.dv by LaTtha.dv;
+	sub LaHalf.dv Dda.dv by LaDda.dv;
+	sub LaHalf.dv Ddha.dv by LaDdha.dv;
+	sub LaHalf.dv Ta.dv by LaTa.dv;
+	sub LaHalf.dv Tha.dv by LaTha.dv;
+	sub LaHalf.dv Da.dv by LaDa.dv;
+	sub LaHalf.dv Pa.dv by LaPa.dv;
+	sub LaHalf.dv Pha.dv by LaPha.dv;
+	sub LaHalf.dv Ba.dv by LaBa.dv;
+	sub LaHalf.dv Bha.dv by LaBha.dv;
+	sub LaHalf.dv Ma.dv by LaMa.dv;
+	sub LaHalf.dv Ya.dv by LaYa.dv;
+	sub LaHalf.dv La.dv by LaLa.dv;
+	sub LaHalf.dv Va.dv by LaVa.dv;
+	sub LaHalf.dv Sha.dv by LaSha.dv;
+	sub LaHalf.dv Sa.dv by LaSa.dv;
+	sub LaHalf.dv Ha.dv by LaHa.dv;
+	sub LaHalf.dv JaNukta.dv by LaJaNukta.dv;
+	sub LlaHalant.dv Ya.dv by LlaYa.dv;
+	sub LlaHalant.dv Lla.dv by LlaLla.dv;
+	sub VaHalf.dv Dda.dv by VaDda.dv;
+	sub VaHalf.dv Ya.dv by VaYa.dv;
+	sub VaHalf.dv La.dv by VaLa.dv;
+	sub VaHalf.dv Va.dv by VaVa.dv;
+	sub VaHalf.dv Ha.dv by VaHa.dv;
+	sub ShaHalf.dv Ka.dv by ShaKa.dv;
+	sub ShaHalf.dv Ca.dv by ShaCa.dv;
+	sub ShaHalf.dv Cha.dv by ShaCha.dv;
+	sub ShaHalf.dv Tta.dv by ShaTta.dv;
+	sub ShaHalf.dv Ta.dv by ShaTa.dv;
+	sub ShaHalf.dv Na.dv by ShaNa.dv;
+	sub ShaHalf.dv Ma.dv by ShaMa.dv;
+	sub ShaHalf.dv Ya.dv by ShaYa.dv;
+	sub ShaHalf.dv La.dv by ShaLa.dv;
+	sub ShaHalf.dv Va.dv by ShaVa.dv;
+	sub ShaHalf.dv Sha.dv by ShaSha.dv;
+	sub ShaHalf.dv KaNukta.dv by ShaKaNukta.dv;
+	sub SsaHalf.dv Ka.dv by SsaKa.dv;
+	sub SsaHalf.dv Tta.dv by SsaTta.dv;
+	sub SsaHalf.dv Ttha.dv by SsaTtha.dv;
+	sub SsaHalf.dv Nna.dv by SsaNna.dv;
+	sub SsaHalf.dv Pa.dv by SsaPa.dv;
+	sub SsaHalf.dv Pha.dv by SsaPha.dv;
+	sub SsaHalf.dv Ma.dv by SsaMa.dv;
+	sub SsaHalf.dv Ya.dv by SsaYa.dv;
+	sub SsaHalf.dv Va.dv by SsaVa.dv;
+	sub SsaHalf.dv Ssa.dv by SsaSsa.dv;
+	sub SaHalf.dv KaRa.dv by SaKaRa.dv;
+	sub SaHalf.dv Ka.dv by SaKa.dv;
+	sub SaHalf.dv Kha.dv by SaKha.dv;
+	sub SaHalf.dv Ja.dv by SaJa.dv;
+	sub SaHalf.dv Tta.dv by SaTta.dv;
+	sub SaHalf.dv Ta.dv by SaTa.dv;
+	sub SaHalf.dv Tha.dv by SaTha.dv;
+	sub SaHalf.dv Da.dv by SaDa.dv;
+	sub SaHalf.dv Na.dv by SaNa.dv;
+	sub SaHalf.dv Pa.dv by SaPa.dv;
+	sub SaHalf.dv Pha.dv by SaPha.dv;
+	sub SaHalf.dv Ba.dv by SaBa.dv;
+	sub SaHalf.dv Ma.dv by SaMa.dv;
+	sub SaHalf.dv Ya.dv by SaYa.dv;
+	sub SaHalf.dv La.dv by SaLa.dv;
+	sub SaHalf.dv Va.dv by SaVa.dv;
+	sub SaHalf.dv Sa.dv by SaSa.dv;
+	sub HaHalant.dv Nna.dv by HaNna.dv;
+	sub HaHalant.dv Na.dv by HaNa.dv;
+	sub HaHalant.dv Ma.dv by HaMa.dv;
+	sub HaHalant.dv Ya.dv by HaYa.dv;
+	sub HaHalant.dv La.dv by HaLa.dv;
+	sub HaHalant.dv Va.dv by HaVa.dv;
+	sub KaNuktaHalf.dv Ta.dv by KaNuktaTa.dv;
+	sub KaNuktaHalf.dv Ba.dv by KaNuktaBa.dv;
+	sub KaNuktaHalf.dv Ma.dv by KaNuktaMa.dv;
+	sub KaNuktaHalf.dv KaNukta.dv by KaNuktaKaNukta.dv;
+	sub KaNuktaHalf.dv Pha.dv by KaNuktaPha.dv;
+	sub KaNuktaHalf.dv PhaNukta.dv by KaNuktaPhaNukta.dv;
+	sub KhaNuktaHalf.dv Ta.dv by KhaNuktaTa.dv;
+	sub KhaNuktaHalf.dv Ma.dv by KhaNuktaMa.dv;
+	sub KhaNuktaHalf.dv Ya.dv by KhaNuktaYa.dv;
+	sub KhaNuktaHalf.dv Va.dv by KhaNuktaVa.dv;
+	sub KhaNuktaHalf.dv Sha.dv by KhaNuktaSha.dv;
+	sub KhaNuktaHalf.dv Sa.dv by KhaNuktaSa.dv;
+	sub JaNuktaHalf.dv Ya.dv by JaNuktaYa.dv;
+	sub JaNuktaHalf.dv JaNukta.dv by JaNuktaJaNukta.dv;
+	sub PhaNuktaHalf.dv Ta.dv by PhaNuktaTa.dv;
+	sub PhaNuktaHalf.dv Sa.dv by PhaNuktaSa.dv;
+	sub PhaNuktaHalf.dv JaNukta.dv by PhaNuktaJaNukta.dv;
+	sub PhaNuktaHalf.dv PhaNukta.dv by PhaNuktaPhaNukta.dv;
+} pres2;
+
+
+lookup pres_half { # half-conjuncts CHECK IF NEEDED
+	sub TaHalf.dv TaHalf.dv by TaTaHalf.dv;
+	sub NaHalf.dv BhaHalf.dv by NaBhaHalf.dv;
+	sub NaHalf.dv SaHalf.dv by NaSaHalf.dv;
+	sub BaHalf.dv LaHalf.dv by BaLaHalf.dv;
+	sub MaHalf.dv BhaHalf.dv by MaBhaHalf.dv;
+	sub LaHalf.dv BhaHalf.dv by LaBhaHalf.dv;
+	sub KaSsaHalf.dv MaHalf.dv by KaSsaMaHalf.dv;
+	sub DaHalant.dv DaHalant.dv by DamatraRu.dv;
+} pres_half;
+
+	sub RaNuktaHalf.dv Ya.dv by RaNuktaYa.dv;
+	sub RaNuktaHalf.dv Ha.dv by RaNuktaHa.dv;
+
+
+
+lookup pres_matraI{
+	sub matraI.dv' @matraI1 by matraI1.dv;
+	sub matraI.dv' @matraI2 by matraI2.dv;
+	sub matraI.dv' @matraI3 by matraI3.dv;
+	sub matraI.dv' @matraI4 by matraI4.dv;
+	sub matraI.dv' @matraI5 by matraI5.dv;
+	sub matraI.dv' @matraI6 by matraI6.dv;
+	sub matraI.dv' @matraI7 by matraI7.dv;
+	sub matraI.dv' @matraI8 by matraI8.dv;
+	sub matraI.dv' @matraI9 by matraI9.dv;
+	sub matraI.dv' @matraI10 by matraI10.dv;
+	sub matraI.dv' @matraI11 by matraI11.dv;
+	sub matraI.dv' @matraI12 by matraI12.dv;
+	sub matraI.dv' @matraI13 by matraI13.dv;
+	sub matraI.dv' @matraI14 by matraI14.dv;
+	sub matraI.dv' @matraI15 by matraI15.dv;
+	sub matraI.dv' @matraI16 by matraI16.dv;
+	sub matraI.dv' @matraI17 by matraI17.dv;
+	sub matraI.dv' @matraI18 by matraI18.dv;
+	sub matraI.dv' @matraI19 by matraI19.dv;
+} pres_matraI;
+
+
+} pres;
+
+#--------------------------------------------------------------------
+
+feature abvs { # Abovebase matra substitutions
+
+
+lookup abvs3 {
+	sub vowelAi.dv Chandrabindu.dv' by Chandrabindu1.dv;
+	sub vowelO.dv Chandrabindu.dv' by Chandrabindu1.dv;
+	sub vowelAu.dv Chandrabindu.dv' by Chandrabindu1.dv;
+	sub vowelShortE.dv Chandrabindu.dv' by Chandrabindu1.dv;
+	sub vowelShortO.dv Chandrabindu.dv' by Chandrabindu1.dv;
+	sub vowelShortA.dv Chandrabindu.dv' by Chandrabindu1.dv;
+	sub uni0975 Chandrabindu.dv' by Chandrabindu1.dv;
+	sub matraI.dv @matraIdefault Chandrabindu.dv' by Chandrabindu1.dv;
+	sub matraI1.dv @matraI1 Chandrabindu.dv' by Chandrabindu1.dv;
+	sub matraI2.dv @matraI2 Chandrabindu.dv' by Chandrabindu1.dv;
+	sub matraI3.dv @matraI3 Chandrabindu.dv' by Chandrabindu1.dv;
+	sub matraI4.dv @matraI4 Chandrabindu.dv' by Chandrabindu1.dv;
+	sub matraI5.dv @matraI5 Chandrabindu.dv' by Chandrabindu1.dv;
+	sub matraI6.dv @matraI6 Chandrabindu.dv' by Chandrabindu1.dv;
+	sub matraI7.dv @matraI7 Chandrabindu.dv' by Chandrabindu1.dv;
+	sub matraI8.dv @matraI8 Chandrabindu.dv' by Chandrabindu1.dv;
+	sub matraI9.dv @matraI9 Chandrabindu.dv' by Chandrabindu1.dv;
+	sub matraI10.dv @matraI10 Chandrabindu.dv' by Chandrabindu1.dv;
+	sub matraI11.dv @matraI11 Chandrabindu.dv' by Chandrabindu1.dv;
+	sub matraI12.dv @matraI12 Chandrabindu.dv' by Chandrabindu1.dv;
+	sub matraI13.dv @matraI13 Chandrabindu.dv' by Chandrabindu1.dv;
+	sub matraI14.dv @matraI14 Chandrabindu.dv' by Chandrabindu1.dv;
+	sub matraI15.dv @matraI15 Chandrabindu.dv' by Chandrabindu1.dv;
+	sub matraI16.dv @matraI16 Chandrabindu.dv' by Chandrabindu1.dv;
+	sub matraI17.dv @matraI17 Chandrabindu.dv' by Chandrabindu1.dv;
+	sub matraI18.dv @matraI18 Chandrabindu.dv' by Chandrabindu1.dv;
+	sub matraI19.dv @matraI19 Chandrabindu.dv' by Chandrabindu1.dv;
+} abvs3;
+
+
+lookup abvs2 {
+	 sub matraA.dv Reph.dv by matraAReph.dv;
+	 sub matraIi.dv Reph.dv by matraIiReph.dv;
+	 sub matraShortE.dv Reph.dv by matraShortEReph.dv;
+	 sub matraShortAi.dv Reph.dv by matraShortAiReph.dv;
+	 sub matraE.dv Reph.dv by matraEReph.dv;
+	 sub matraAi.dv Reph.dv by matraAiReph.dv;
+	 sub matraShortO.dv Reph.dv by matraShortOReph.dv;
+	 sub matraShortAu.dv Reph.dv by matraShortAuReph.dv;
+	 sub matraO.dv Reph.dv by matraOReph.dv;
+	 sub matraAu.dv Reph.dv by matraAuReph.dv;
+} abvs2;
+
+
+lookup abvs1 {
+	 sub matraA.dv Bindu.dv by matraABindu.dv;
+	 sub matraA.dv Chandrabindu.dv by matraAChandrabindu.dv;
+
+	 sub matraIi.dv Bindu.dv by matraIiBindu.dv;
+	 sub matraIi.dv Chandrabindu.dv by matraIiChandrabindu.dv;
+
+	 sub Chandra.dv Bindu.dv by Chandrabindu.dv;
+
+	 sub matraShortE.dv Bindu.dv by matraShortEBindu.dv;
+	 sub matraShortE.dv Chandrabindu.dv by matraShortEChandrabindu.dv;
+
+	 sub matraE.dv Bindu.dv by matraEBindu.dv;
+	 sub matraE.dv Chandrabindu.dv by matraEChandrabindu.dv;
+
+	 sub matraShortAi.dv Bindu.dv by matraShortAiBindu.dv;
+	 sub matraShortAi.dv Chandrabindu.dv by matraShortAiChandrabindu.dv;
+
+	 sub matraAi.dv Bindu.dv by matraAiBindu.dv;
+	 sub matraAi.dv Chandrabindu.dv by matraAiChandrabindu.dv;
+
+	 sub matraShortO.dv Bindu.dv by matraShortOBindu.dv;
+	 sub matraShortO.dv Chandrabindu.dv by matraShortOChandrabindu.dv;
+
+	 sub matraO.dv Bindu.dv by matraOBindu.dv;
+	 sub matraO.dv Chandrabindu.dv by matraOChandrabindu.dv;
+
+	 sub matraShortAu.dv Bindu.dv by matraShortAuBindu.dv;
+	 sub matraShortAu.dv Chandrabindu.dv by matraShortAuChandrabindu.dv;
+
+	 sub matraAu.dv Bindu.dv by matraAuBindu.dv;
+	 sub matraAu.dv Chandrabindu.dv by matraAuChandrabindu.dv;
+
+	 sub Reph.dv Bindu.dv by RephBindu.dv;
+	 sub Reph.dv Chandrabindu.dv by RephChandrabindu.dv;
+
+
+	 sub matraIiReph.dv Bindu.dv by matraIiRephBindu.dv;
+	 sub matraIiReph.dv Chandrabindu.dv by matraIiRephChandrabindu.dv;
+
+	 sub matraEReph.dv Bindu.dv by matraERephBindu.dv;
+	 sub matraEReph.dv Chandrabindu.dv by matraERephChandrabindu.dv;
+
+	 sub matraAiReph.dv Bindu.dv by matraAiRephBindu.dv;
+	 sub matraAiReph.dv Chandrabindu.dv by matraAiRephChandrabindu.dv;
+
+	 sub matraOReph.dv Bindu.dv by matraORephBindu.dv;
+	 sub matraOReph.dv Chandrabindu.dv by matraORephChandrabindu.dv;
+
+	 sub matraAuReph.dv Bindu.dv by matraAuRephBindu.dv;
+	 sub matraAuReph.dv Chandrabindu.dv by matraAuRephChandrabindu.dv;
+
+	 sub matraAReph.dv Bindu.dv by matraARephBindu.dv;
+	 sub matraAReph.dv Chandrabindu.dv by matraARephChandrabindu.dv;
+
+	 sub matraShortEReph.dv Bindu.dv by matraShortERephBindu.dv;
+	 sub matraShortEReph.dv Chandrabindu.dv by matraShortERephChandrabindu.dv;
+
+	 sub matraShortOReph.dv Bindu.dv by matraShortORephBindu.dv;
+	 sub matraShortOReph.dv Chandrabindu.dv by matraShortORephChandrabindu.dv;
+
+	 sub matraShortAiReph.dv Bindu.dv by matraShortAiRephBindu.dv;
+	 sub matraShortAiReph.dv Chandrabindu.dv by matraShortAiRephChandrabindu.dv;
+
+	 sub matraShortAuReph.dv Bindu.dv by matraShortAuRephBindu.dv;
+	 sub matraShortAuReph.dv Chandrabindu.dv by matraShortAuRephChandrabindu.dv;
+
+
+} abvs1;
+
+
+
+lookup matraIBindu { # Replace IkarReph matra for conjuncts
+lookupflag MarkAttachmentType @matraIall IgnoreBaseGlyphs;
+	sub matraI.dv'  Bindu.dv' by matraIBindu.dv;
+	sub matraI1.dv' Bindu.dv' by matraIBindu1.dv;
+	sub matraI2.dv' Bindu.dv' by matraIBindu2.dv;
+	sub matraI3.dv' Bindu.dv' by matraIBindu3.dv;
+	sub matraI4.dv' Bindu.dv' by matraIBindu4.dv;
+	sub matraI5.dv' Bindu.dv' by matraIBindu5.dv;
+	sub matraI6.dv' Bindu.dv' by matraIBindu6.dv;
+	sub matraI7.dv' Bindu.dv' by matraIBindu7.dv;
+	sub matraI8.dv' Bindu.dv' by matraIBindu8.dv;
+	sub matraI9.dv' Bindu.dv' by matraIBindu9.dv;
+	sub matraI10.dv' Bindu.dv' by matraIBindu10.dv;
+	sub matraI11.dv' Bindu.dv' by matraIBindu11.dv;
+	sub matraI12.dv' Bindu.dv' by matraIBindu12.dv;
+	sub matraI13.dv' Bindu.dv' by matraIBindu13.dv;
+	sub matraI14.dv' Bindu.dv' by matraIBindu14.dv;
+	sub matraI15.dv' Bindu.dv' by matraIBindu15.dv;
+	sub matraI16.dv' Bindu.dv' by matraIBindu16.dv;
+	sub matraI17.dv' Bindu.dv' by matraIBindu17.dv;
+	sub matraI18.dv' Bindu.dv' by matraIBindu18.dv;
+	sub matraI19.dv' Bindu.dv' by matraIBindu19.dv;
+} matraIBindu;
+
+
+} abvs;
+
+#--------------------------------------------------------------------
+
+feature psts { 
+
+lookup psts1 { # Postbase matra substitutions
+	sub @Width_matraIi1 @matraIidefault' by @matraIi1;
+	sub @Width_matraIi2 @matraIidefault' by @matraIi2;
+	sub @Width_matraIi3 @matraIidefault' by @matraIi3;
+	sub @Width_matraIi4 @matraIidefault' by @matraIi4;
+	sub @Width_matraIi5 @matraIidefault' by @matraIi5;
+	sub @Width_matraIi6 @matraIidefault' by @matraIi6;
+	sub @Width_matraIi7 @matraIidefault' by @matraIi7;
+} psts1;
+
+}psts;
+
+#--------------------------------------------------------------------
+
+
+feature haln { # Halant forms
+
+	sub Ka.dv Halant.dv by KaHalant.dv;
+	sub Kha.dv Halant.dv by KhaHalant.dv;
+	sub Ga.dv Halant.dv by GaHalant.dv;
+	sub Gha.dv Halant.dv by GhaHalant.dv;
+	sub Ca.dv Halant.dv by CaHalant.dv;
+	sub Ja.dv Halant.dv by JaHalant.dv;
+	sub Jha.dv Halant.dv by JhaHalant.dv;
+	sub Nya.dv Halant.dv by NyaHalant.dv;
+	sub Nna.dv Halant.dv by NnaHalant.dv;
+	sub Ta.dv Halant.dv by TaHalant.dv;
+	sub Tha.dv Halant.dv by ThaHalant.dv;
+	sub Dha.dv Halant.dv by DhaHalant.dv;
+	sub Na.dv Halant.dv by NaHalant.dv;
+	sub Pa.dv Halant.dv by PaHalant.dv;
+	sub Pha.dv Halant.dv by PhaHalant.dv;
+	sub Ba.dv Halant.dv by BaHalant.dv;
+	sub Bha.dv Halant.dv by BhaHalant.dv;
+	sub Ma.dv Halant.dv by MaHalant.dv;
+	sub Ya.dv Halant.dv by YaHalant.dv;
+	sub Ra.dv Halant.dv by RaHalant.dv;
+	sub La.dv Halant.dv by LaHalant.dv;
+	sub Lla.dv Halant.dv by LlaHalant.dv;
+	sub Va.dv Halant.dv by VaHalant.dv;
+	sub Sha.dv Halant.dv by ShaHalant.dv;
+	sub Ssa.dv Halant.dv by SsaHalant.dv;
+	sub Sa.dv Halant.dv by SaHalant.dv;
+	sub Ha.dv Halant.dv by HaHalant.dv;
+
+	sub KaNukta.dv Halant.dv by KaNuktaHalant.dv;
+	sub KhaNukta.dv Halant.dv by KhaNuktaHalant.dv;
+	sub GaNukta.dv Halant.dv by GaNuktaHalant.dv;
+	sub JaNukta.dv Halant.dv by JaNuktaHalant.dv;
+	sub DdaNukta.dv Halant.dv by DdaNuktaHalant.dv;
+	sub DdhaNukta.dv Halant.dv by DdhaNuktaHalant.dv;
+	sub PhaNukta.dv Halant.dv by PhaNuktaHalant.dv;
+	sub YaNukta.dv Halant.dv by YaNuktaHalant.dv;
+	sub NaNukta.dv Halant.dv by NaNuktaHalant.dv;
+	sub RaNukta.dv Halant.dv by RaNuktaHalant.dv;
+	sub LlaNukta.dv Halant.dv by LlaNuktaHalant.dv;
+
+	sub Nga.dv Halant.dv by NgaHalant.dv;
+	sub Cha.dv Halant.dv by ChaHalant.dv;
+	sub Tta.dv Halant.dv by TtaHalant.dv;
+	sub Ttha.dv Halant.dv by TthaHalant.dv;
+	sub Dda.dv Halant.dv by DdaHalant.dv;
+	sub Ddha.dv Halant.dv by DdhaHalant.dv;
+	sub Da.dv Halant.dv by DaHalant.dv;
+	sub KaSsa.dv Halant.dv by KaSsaHalant.dv;
+	sub JaNya.dv Halant.dv by JaNyaHalant.dv;
+	sub DaRa.dv Halant.dv by DaRaHalant.dv;
+	sub DdhaRa.dv Halant.dv by DdhaRaHalant.dv;
+	sub ChaRa.dv Halant.dv by ChaRaHalant.dv;
+
+
+} haln;
+
+#--------------------------------------------------------------------
+
+feature calt{
+
+sub SaHalf.dv' [NnamatraU.dv NnamatraUu.dv NnamatraRu.dv PamatraU.dv PamatraUu.dv PamatraRu.dv PhamatraU.dv PhamatraUu.dv PhamatraRu.dv SsamatraU.dv SsamatraUu.dv SsamatraRu.dv] by SaHalf1.dv;
+
+sub PhaHalf.dv' [NnamatraU.dv NnamatraUu.dv NnamatraRu.dv PamatraU.dv PamatraUu.dv PamatraRu.dv PhamatraU.dv PhamatraUu.dv PhamatraRu.dv SsamatraU.dv SsamatraUu.dv SsamatraRu.dv] by PhaHalf1.dv;
+
+sub [GaHalf.dv GhaHalf.dv CaHalf.dv NyaHalf.dv NnaHalf.dv ThaHalf.dv DhaHalf.dv NaHalf.dv PaHalf.dv BaHalf.dv BhaHalf.dv MaHalf.dv YaHalf.dv LaHalf.dv VaHalf.dv SsaHalf.dv] YamatraU.dv' by YamatraU1.dv;
+
+}calt;
+
+
+#--------------------------------------------------------------------
+
+feature ss01 { # Stylistic Set 1
+
+lookup salt1{
+#	sub Paach.dv by Paanch.dv;
+#	sub Aath.dv by Aanth.dv;
+sub La.dv by La.MAR.dv; 
+sub Sha.dv by Sha.MAR.dv; 
+sub ShaHalant.dv by ShaHalant.MAR.dv; 
+sub LaHalant.dv by LaHalant.MAR.dv; 
+sub ShaHalf.dv by ShaHalf.MAR.dv; 
+sub ShamatraU.dv by ShamatraU.MAR.dv; 
+sub ShamatraUu.dv by ShamatraUu.MAR.dv; 
+sub ShamatraRu.dv by ShamatraRu.MAR.dv; 
+sub LamatraU.dv by LamatraU.MAR.dv; 
+sub LamatraUu.dv by LamatraUu.MAR.dv; 
+sub LamatraRu.dv by LamatraRu.MAR.dv; 
+sub LaRa.dv by LaRa.MAR.dv; 
+sub KaSaPaLa.dv by KaSaPaLa.MAR.dv; 
+sub TaPaLa.dv by TaPaLa.MAR.dv; 
+sub KaLa.dv by KaLa.MAR.dv; 
+sub KaSha.dv by KaSha.MAR.dv; 
+sub KhaSha.dv by KhaSha.MAR.dv; 
+sub GaLa.dv by GaLa.MAR.dv; 
+sub NyaSha.dv by NyaSha.MAR.dv; 
+sub TaLa.dv by TaLa.MAR.dv; 
+sub NaSha.dv by NaSha.MAR.dv; 
+sub PaLa.dv by PaLa.MAR.dv; 
+sub PaSha.dv by PaSha.MAR.dv; 
+sub PhaLa.dv by PhaLa.MAR.dv; 
+sub PhaSha.dv by PhaSha.MAR.dv; 
+sub BaLa.dv by BaLa.MAR.dv; 
+sub BaSha.dv by BaSha.MAR.dv; 
+sub BhaLa.dv by BhaLa.MAR.dv; 
+sub MaLa.dv by MaLa.MAR.dv; 
+sub MaSha.dv by MaSha.MAR.dv; 
+sub LaLa.dv by LaLa.MAR.dv; 
+sub VaLa.dv by VaLa.MAR.dv; 
+sub ShaKa.dv by ShaKa.MAR.dv; 
+sub ShaCha.dv by ShaCha.MAR.dv; 
+sub ShaTta.dv by ShaTta.MAR.dv; 
+sub ShaMa.dv by ShaMa.MAR.dv; 
+sub ShaYa.dv by ShaYa.MAR.dv; 
+sub ShaLa.dv by ShaLa.MAR.dv; 
+sub ShaTa.dv by ShaTa.MAR.dv;
+sub ShaSha.dv by ShaSha.MAR.dv; 
+sub ShaKaNukta.dv by ShaKaNukta.MAR.dv; 
+sub SaLa.dv by SaLa.MAR.dv; 
+sub HaLa.dv by HaLa.MAR.dv; 
+sub KhaNuktaSha.dv by KhaNuktaSha.MAR.dv; 
+sub LaSha.dv by LaSha.MAR.dv; 
+sub NaShamatraU.dv by NaShamatraU.MAR.dv; 
+sub NaShamatraUu.dv by NaShamatraUu.MAR.dv; 
+
+}salt1;
+
+
+lookup salt1.1{
+
+sub matraI5.dv' La.MAR.dv by matraI4.dv; 
+sub matraI4.dv' Sha.MAR.dv by matraI5.dv; 
+#sub matraI5.dv' LaRa.MAR.dv by matraI5.dv; 
+#sub matraI19.dv' KaSaPaLa.MAR.dv by matraI19.dv; 
+sub matraI14.dv' TaPaLa.MAR.dv by matraI14.dv; 
+sub matraI14.dv' KaLa.MAR.dv by matraI14.dv; 
+sub matraI14.dv' KaSha.MAR.dv by matraI14.dv; 
+sub matraI15.dv' KhaSha.MAR.dv by matraI16.dv; 
+sub matraI11.dv' GaLa.MAR.dv by matraI10.dv; 
+sub matraI13.dv' NyaSha.MAR.dv by matraI14.dv; 
+#sub matraI9.dv' TaLa.MAR.dv by matraI9.dv; 
+sub matraI10.dv' NaSha.MAR.dv by matraI11.dv; 
+sub matraI9.dv' PaLa.MAR.dv by matraI9.dv; 
+sub matraI9.dv' PaSha.MAR.dv by matraI10.dv; 
+#sub matraI14.dv' PhaLa.MAR.dv by matraI14.dv; 
+#sub matraI14.dv' PhaSha.MAR.dv by matraI14.dv; 
+sub matraI10.dv' BaLa.MAR.dv by matraI10.dv; 
+sub matraI10.dv' BaSha.MAR.dv by matraI12.dv; 
+sub matraI11.dv' BhaLa.MAR.dv by matraI10.dv; 
+sub matraI11.dv' MaLa.MAR.dv by matraI10.dv; 
+#sub matraI11.dv' MaSha.MAR.dv by matraI11.dv; 
+#sub matraI4.dv' LaLa.MAR.dv by matraI4.dv; 
+sub matraI10.dv' VaLa.MAR.dv by matraI10.dv; 
+sub matraI8.dv' ShaKa.MAR.dv by matraI10.dv; 
+sub matraI12.dv' ShaCha.MAR.dv by matraI13.dv; 
+sub matraI9.dv' ShaTta.MAR.dv by matraI11.dv; 
+sub matraI10.dv' ShaMa.MAR.dv by matraI11.dv; 
+sub matraI11.dv' ShaYa.MAR.dv by matraI13.dv; 
+#sub matraI4.dv' ShaLa.MAR.dv by matraI4.dv; 
+sub matraI12.dv' ShaSha.MAR.dv by matraI14.dv; 
+sub matraI8.dv' ShaKaNukta.MAR.dv by matraI10.dv; 
+sub matraI12.dv' SaLa.MAR.dv by matraI11.dv; 
+#sub matraI4.dv' HaLa.MAR.dv by matraI4.dv; 
+sub matraI15.dv' KhaNuktaSha.MAR.dv by matraI16.dv; 
+sub matraI12.dv' LaSha.MAR.dv by matraI13.dv; 
+
+
+sub matraIBindu5.dv' La.MAR.dv by matraIBindu4.dv; 
+sub matraIBindu4.dv' Sha.MAR.dv by matraIBindu5.dv; 
+#sub matraIBindu5.dv' LaRa.MAR.dv by matraIBindu5.dv; 
+#sub matraIBindu19.dv' KaSaPaLa.MAR.dv by matraIBindu19.dv; 
+sub matraIBindu14.dv' TaPaLa.MAR.dv by matraIBindu14.dv; 
+sub matraIBindu14.dv' KaLa.MAR.dv by matraIBindu14.dv; 
+sub matraIBindu14.dv' KaSha.MAR.dv by matraIBindu14.dv; 
+sub matraIBindu15.dv' KhaSha.MAR.dv by matraIBindu16.dv; 
+sub matraIBindu11.dv' GaLa.MAR.dv by matraIBindu10.dv; 
+sub matraIBindu13.dv' NyaSha.MAR.dv by matraIBindu14.dv; 
+#sub matraIBindu9.dv' TaLa.MAR.dv by matraIBindu9.dv; 
+sub matraIBindu10.dv' NaSha.MAR.dv by matraIBindu11.dv; 
+sub matraIBindu9.dv' PaLa.MAR.dv by matraIBindu9.dv; 
+sub matraIBindu9.dv' PaSha.MAR.dv by matraIBindu10.dv; 
+#sub matraIBindu14.dv' PhaLa.MAR.dv by matraIBindu14.dv; 
+#sub matraIBindu14.dv' PhaSha.MAR.dv by matraIBindu14.dv; 
+sub matraIBindu10.dv' BaLa.MAR.dv by matraIBindu10.dv; 
+sub matraIBindu10.dv' BaSha.MAR.dv by matraIBindu12.dv; 
+sub matraIBindu11.dv' BhaLa.MAR.dv by matraIBindu10.dv; 
+sub matraIBindu11.dv' MaLa.MAR.dv by matraIBindu10.dv; 
+#sub matraIBindu11.dv' MaSha.MAR.dv by matraIBindu11.dv; 
+#sub matraIBindu4.dv' LaLa.MAR.dv by matraIBindu4.dv; 
+sub matraIBindu10.dv' VaLa.MAR.dv by matraIBindu10.dv; 
+sub matraIBindu8.dv' ShaKa.MAR.dv by matraIBindu10.dv; 
+sub matraIBindu12.dv' ShaCha.MAR.dv by matraIBindu13.dv; 
+sub matraIBindu9.dv' ShaTta.MAR.dv by matraIBindu11.dv; 
+sub matraIBindu10.dv' ShaMa.MAR.dv by matraIBindu11.dv; 
+sub matraIBindu11.dv' ShaYa.MAR.dv by matraIBindu13.dv; 
+#sub matraIBindu4.dv' ShaLa.MAR.dv by matraIBindu4.dv; 
+sub matraIBindu12.dv' ShaSha.MAR.dv by matraIBindu14.dv; 
+sub matraIBindu8.dv' ShaKaNukta.MAR.dv by matraIBindu10.dv; 
+sub matraIBindu12.dv' SaLa.MAR.dv by matraIBindu11.dv; 
+#sub matraIBindu4.dv' HaLa.MAR.dv by matraIBindu4.dv; 
+sub matraIBindu15.dv' KhaNuktaSha.MAR.dv by matraIBindu16.dv; 
+sub matraIBindu12.dv' LaSha.MAR.dv by matraIBindu13.dv; 
+
+}salt1.1;
+
+lookup salt1.2{
+
+ sub La.MAR.dv @matraIidefault' by @matraIi5;
+ sub LaRa.MAR.dv @matraIidefault' by @matraIi5;
+ sub KaSaPaLa.MAR.dv @matraIidefault' by @matraIi5;
+ sub TaPaLa.MAR.dv @matraIidefault' by @matraIi5;
+ sub KaLa.MAR.dv @matraIidefault' by @matraIi5;
+ sub GaLa.MAR.dv @matraIidefault' by @matraIi5;
+ sub TaLa.MAR.dv @matraIidefault' by @matraIi5;
+ sub PaLa.MAR.dv @matraIidefault' by @matraIi5;
+ sub PhaLa.MAR.dv @matraIidefault' by @matraIi5;
+ sub BaLa.MAR.dv @matraIidefault' by @matraIi5;
+ sub BhaLa.MAR.dv @matraIidefault' by @matraIi5;
+ sub MaLa.MAR.dv @matraIidefault' by @matraIi5;
+ sub LaLa.MAR.dv @matraIidefault' by @matraIi5;
+ sub VaLa.MAR.dv @matraIidefault' by @matraIi5;
+ sub ShaLa.MAR.dv @matraIidefault' by @matraIi4;
+ sub SaLa.MAR.dv @matraIidefault' by @matraIi5;
+ #sub HaLa.MAR.dv @matraIidefault' by @matraIidefault;
+
+} salt1.2;
+
+} ss01;
+
+#--------------------------------------------------------------------
+
+feature ss02{
+lookup salt2{
+
+	sub vowelAi.dv by vowelShortE.dv;
+	sub vowelO.dv by vowelShortO.dv;
+	sub vowelAu.dv by uni0975;
+
+
+	sub matraE.dv by matraShortE.dv;
+	sub matraEBindu.dv by matraShortEBindu.dv;
+	sub matraEReph.dv by matraShortEReph.dv;
+	sub matraERephBindu.dv by matraShortERephBindu.dv;
+	sub matraEChandrabindu.dv by matraShortEChandrabindu.dv;
+	sub matraERephChandrabindu.dv by matraShortERephChandrabindu.dv;
+
+	sub matraAi.dv by matraShortAi.dv;
+	sub matraAiBindu.dv by matraShortAiBindu.dv;
+	sub matraAiReph.dv by matraShortAiReph.dv;
+	sub matraAiRephBindu.dv by matraShortAiRephBindu.dv;
+	sub matraAiChandrabindu.dv by matraShortAiChandrabindu.dv;
+	sub matraAiRephChandrabindu.dv by matraShortAiRephChandrabindu.dv;
+
+	sub matraO.dv by matraShortO.dv;
+	sub matraOBindu.dv by matraShortOBindu.dv;
+	sub matraOReph.dv by matraShortOReph.dv;
+	sub matraORephBindu.dv by matraShortORephBindu.dv;
+	sub matraOChandrabindu.dv by matraShortOChandrabindu.dv;
+	sub matraORephChandrabindu.dv by matraShortORephChandrabindu.dv;
+
+	sub matraAu.dv by matraShortAu.dv;
+	sub matraAuBindu.dv by matraShortAuBindu.dv;
+	sub matraAuReph.dv by matraShortAuReph.dv;
+	sub matraAuRephBindu.dv by matraShortAuRephBindu.dv;
+	sub matraAuChandrabindu.dv by matraShortAuChandrabindu.dv;
+	sub matraAuRephChandrabindu.dv by matraShortAuRephChandrabindu.dv;
+
+}salt2;
+}ss02;
+
+#--------------------------------------------------------------------
+
+
+
+feature ss03{
+lookup salt3{
+
+
+sub vowelIi.dv by vowelIialt.dv;
+sub vowelAi.dv by vowelAialt.dv; 
+sub vowelO.dv by vowelOalt.dv; 
+sub vowelAu.dv by vowelAualt.dv; 
+sub vowelIiBindu.dv by vowelIiBindualt.dv; 
+sub vowelIiChandrabindu.dv by vowelIiChandrabindualt.dv;
+
+
+sub [matraI.dv matraI1.dv matraI2.dv matraI3.dv matraI4.dv matraI5.dv matraI6.dv matraI7.dv matraI8.dv matraI9.dv matraI10.dv matraI11.dv matraI12.dv matraI13.dv matraI14.dv matraI15.dv matraI16.dv matraI17.dv matraI18.dv matraI19.dv] by matraIalt.dv;
+sub Bindu.dv by Bindualt.dv;
+sub matraE.dv by matraEalt.dv;
+sub matraAi.dv by matraAialt.dv;
+sub Reph.dv by Rephalt.dv;
+sub RephBindu.dv by RephBindualt.dv;
+sub RephChandrabindu.dv by RephChandrabindualt.dv;
+sub matraEBindu.dv by matraEBindualt.dv;
+sub matraEReph.dv by matraERephalt.dv;
+sub matraERephBindu.dv by matraERephBindualt.dv;
+sub matraEChandrabindu.dv by matraEChandrabindualt.dv;
+sub matraERephChandrabindu.dv by matraERephChandrabindualt.dv;
+sub matraAiBindu.dv by matraAiBindualt.dv;
+sub matraAiReph.dv by matraAiRephalt.dv;
+sub matraAiRephBindu.dv by matraAiRephBindualt.dv;
+sub matraAiChandrabindu.dv by matraAiChandrabindualt.dv;
+sub matraAiRephChandrabindu.dv by matraAiRephChandrabindualt.dv;
+sub matraABindu.dv by matraABindualt.dv;
+sub matraAReph.dv by matraARephalt.dv;
+sub matraARephBindu.dv by matraARephBindualt.dv;
+sub matraARephChandrabindu.dv by matraARephChandrabindualt.dv;
+sub matraO.dv by matraOalt.dv;
+sub matraOBindu.dv by matraOBindualt.dv;
+sub matraOReph.dv by matraORephalt.dv;
+sub matraORephBindu.dv by matraORephBindualt.dv;
+sub matraOChandrabindu.dv by matraOChandrabindualt.dv;
+sub matraORephChandrabindu.dv by matraORephChandrabindualt.dv;
+sub matraAu.dv by matraAualt.dv;
+sub matraAuBindu.dv by matraAuBindualt.dv;
+sub matraAuReph.dv by matraAuRephalt.dv;
+sub matraAuRephBindu.dv by matraAuRephBindualt.dv;
+sub matraAuChandrabindu.dv by matraAuChandrabindualt.dv;
+sub matraAuRephChandrabindu.dv by matraAuRephChandrabindualt.dv;
+sub [matraIi.dv matraIi1.dv matraIi2.dv matraIi3.dv matraIi4.dv matraIi5.dv matraIi6.dv matraIi7.dv] by matraIialt.dv;
+sub [matraIiBindu.dv matraIiBindu1.dv matraIiBindu2.dv matraIiBindu3.dv matraIiBindu4.dv matraIiBindu5.dv matraIiBindu6.dv matraIiBindu7.dv] by matraIiBindualt.dv;
+sub [matraIiReph.dv matraIiReph1.dv matraIiReph2.dv matraIiReph3.dv matraIiReph4.dv matraIiReph5.dv matraIiReph6.dv matraIiReph7.dv] by matraIiRephalt.dv;
+sub [matraIiRephBindu.dv matraIiRephBindu1.dv matraIiRephBindu2.dv matraIiRephBindu3.dv matraIiRephBindu4.dv matraIiRephBindu5.dv matraIiRephBindu6.dv matraIiRephBindu7.dv] by matraIiRephBindualt.dv;
+sub [matraIiChandrabindu.dv matraIiChandrabindu1.dv matraIiChandrabindu2.dv matraIiChandrabindu3.dv matraIiChandrabindu4.dv matraIiChandrabindu5.dv matraIiChandrabindu6.dv matraIiChandrabindu7.dv] by matraIiChandrabindualt.dv;
+sub [matraIiRephChandrabindu.dv matraIiRephChandrabindu1.dv matraIiRephChandrabindu2.dv matraIiRephChandrabindu3.dv matraIiRephChandrabindu4.dv matraIiRephChandrabindu5.dv matraIiRephChandrabindu6.dv matraIiRephChandrabindu7.dv] by matraIiRephChandrabindualt.dv;
+
+
+}salt3;
+
+
+lookup salt3.1 {
+	sub matraIalt.dv [@matraI1 @matraIdefault @matraI2 @matraI3 @matraI4 @matraI5 @matraI6 @matraI7 @matraI8 @matraI9 @matraI10 @matraI11 @matraI12 @matraI13 @matraI14 @matraI15 @matraI16 @matraI17 @matraI18 @matraI19] Rephalt.dv' by Reph.dv;
+
+	sub matraIalt.dv [@matraI1 @matraIdefault @matraI2 @matraI3 @matraI4 @matraI5 @matraI6 @matraI7 @matraI8 @matraI9 @matraI10 @matraI11 @matraI12 @matraI13 @matraI14 @matraI15 @matraI16 @matraI17 @matraI18 @matraI19] RephBindualt.dv' by RephBindu.dv;
+
+	sub matraIalt.dv [@matraI1 @matraIdefault @matraI2 @matraI3 @matraI4 @matraI5 @matraI6 @matraI7 @matraI8 @matraI9 @matraI10 @matraI11 @matraI12 @matraI13 @matraI14 @matraI15 @matraI16 @matraI17 @matraI18 @matraI19] RephChandrabindualt.dv' by RephChandrabindu.dv;
+
+}salt3.1;
+
+
+lookup salt3.2 {
+
+	sub matraIalt.dv' @matraIdefault [Reph.dv RephBindu.dv RephChandrabindu.dv]  by matraI.dv;
+	sub matraIalt.dv' @matraI1 [Reph.dv RephBindu.dv RephChandrabindu.dv]  by matraI1.dv;
+	sub matraIalt.dv' @matraI2 [Reph.dv RephBindu.dv RephChandrabindu.dv]  by matraI2.dv;
+	sub matraIalt.dv' @matraI3 [Reph.dv RephBindu.dv RephChandrabindu.dv]  by matraI3.dv;
+	sub matraIalt.dv' @matraI4 [Reph.dv RephBindu.dv RephChandrabindu.dv]  by matraI4.dv;
+	sub matraIalt.dv' @matraI5 [Reph.dv RephBindu.dv RephChandrabindu.dv]  by matraI5.dv;
+	sub matraIalt.dv' @matraI6 [Reph.dv RephBindu.dv RephChandrabindu.dv]  by matraI6.dv;
+	sub matraIalt.dv' @matraI7 [Reph.dv RephBindu.dv RephChandrabindu.dv]  by matraI7.dv;
+	sub matraIalt.dv' @matraI8 [Reph.dv RephBindu.dv RephChandrabindu.dv]  by matraI8.dv;
+	sub matraIalt.dv' @matraI9 [Reph.dv RephBindu.dv RephChandrabindu.dv]  by matraI9.dv;
+	sub matraIalt.dv' @matraI10 [Reph.dv RephBindu.dv RephChandrabindu.dv]  by matraI10.dv;
+	sub matraIalt.dv' @matraI11 [Reph.dv RephBindu.dv RephChandrabindu.dv]  by matraI11.dv;
+	sub matraIalt.dv' @matraI12 [Reph.dv RephBindu.dv RephChandrabindu.dv]  by matraI12.dv;
+	sub matraIalt.dv' @matraI13 [Reph.dv RephBindu.dv RephChandrabindu.dv]  by matraI13.dv;
+	sub matraIalt.dv' @matraI14 [Reph.dv RephBindu.dv RephChandrabindu.dv]  by matraI14.dv;
+	sub matraIalt.dv' @matraI15 [Reph.dv RephBindu.dv RephChandrabindu.dv]  by matraI15.dv;
+	sub matraIalt.dv' @matraI16 [Reph.dv RephBindu.dv RephChandrabindu.dv]  by matraI16.dv;
+	sub matraIalt.dv' @matraI17 [Reph.dv RephBindu.dv RephChandrabindu.dv]  by matraI17.dv;
+	sub matraIalt.dv' @matraI18 [Reph.dv RephBindu.dv RephChandrabindu.dv]  by matraI18.dv;
+	sub matraIalt.dv' @matraI19 [Reph.dv RephBindu.dv RephChandrabindu.dv]  by matraI19.dv;
+
+}salt3.2;
+
+}ss03;
+
+
+#--------------------------------------------------------------------
+
+
+feature ss04{
+lookup salt4{
+
+sub Ja.dv by Ja1.dv;
+sub JaNukta.dv by JaNukta1.dv;
+sub JaHalant.dv by JaHalant1.dv;
+sub JaNuktaHalant.dv by JaNuktaHalant1.dv;
+sub JaHalf.dv by JaHalf1.dv;
+sub JaNuktaHalf.dv by JaNuktaHalf1.dv;
+sub JamatraU.dv by JamatraU1.dv;
+sub JamatraUu.dv by JamatraUu1.dv;
+sub JamatraRu.dv by JamatraRu1.dv;
+sub JaNuktamatraU.dv by JaNuktamatraU1.dv;
+sub JaNuktamatraUu.dv by JaNuktamatraUu1.dv;
+sub JaNuktamatraRu.dv by JaNuktamatraRu1.dv;
+sub JaRa.dv by JaRa1.dv;
+sub JaNuktaRa.dv by JaNuktaRa1.dv;
+sub JaJaNya.dv by JaJaNya1.dv;
+sub JaJaYa.dv by JaJaYa1.dv;
+sub JaJaVa.dv by JaJaVa1.dv;
+sub NyaJaYa.dv by NyaJaYa1.dv;
+sub BaJaYa.dv by BaJaYa1.dv;
+sub KaJa.dv by KaJa1.dv;
+sub GaJa.dv by GaJa1.dv;
+sub JaKa.dv by JaKa1.dv;
+sub JaJa.dv by JaJa1.dv;
+sub JaJha.dv by JaJha1.dv;
+sub JaTta.dv by JaTta1.dv;
+sub JaDda.dv by JaDda1.dv;
+sub JaTa.dv by JaTa1.dv;
+sub JaDa.dv by JaDa1.dv;
+sub JaNa.dv by JaNa1.dv;
+sub JaBa.dv by JaBa1.dv;
+sub JaMa.dv by JaMa1.dv;
+sub JaYa.dv by JaYa1.dv;
+sub JaVa.dv by JaVa1.dv;
+sub NyaJa.dv by NyaJa1.dv;
+sub NaJa.dv by NaJa1.dv;
+sub PhaJa.dv by PhaJa1.dv;
+sub BaJa.dv by BaJa1.dv;
+sub BaJaNukta.dv by BaJaNukta1.dv;
+sub LaJa.dv by LaJa1.dv;
+sub LaJaNukta.dv by LaJaNukta1.dv;
+sub SaJa.dv by SaJa1.dv;
+sub JaNuktaYa.dv by JaNuktaYa1.dv;
+sub JaNuktaJaNukta.dv by JaNuktaJaNukta1.dv;
+sub PhaNuktaJaNukta.dv by PhaNuktaJaNukta1.dv;
+}salt4;
+
+
+lookup salt4.1 {
+	 
+sub matraI4.dv' [Ja1.dv JaNukta1.dv JaRa1.dv JaNuktaRa1.dv] by matraI5.dv;
+#sub matraI13.dv' JaJaNya1.dv by matraI13.dv;
+#sub matraI18.dv' JaJaYa1.dv by matraI18.dv;
+sub matraI17.dv' JaJaVa1.dv by matraI18.dv;
+#sub matraI18.dv' NyaJaYa1.dv by matraI18.dv;
+#sub matraI17.dv' BaJaYa1.dv by matraI17.dv;
+sub matraI14.dv' KaJa1.dv by matraI15.dv;
+sub matraI10.dv' GaJa1.dv by matraI11.dv;
+#sub matraI10.dv' JaKa1.dv by matraI10.dv;
+#sub matraI13.dv' [JaJa1.dv JaNuktaJaNukta1.dv] by matraI13.dv;
+sub matraI14.dv' JaJha1.dv by matraI15.dv;
+sub matraI10.dv' JaTta1.dv by matraI11.dv;
+sub matraI10.dv' JaDda1.dv by matraI11.dv;
+sub matraI10.dv' JaTa1.dv by matraI11.dv;
+sub matraI10.dv' JaDa1.dv by matraI11.dv;
+sub matraI4.dv' JaNa1.dv by matraI5.dv;
+sub matraI10.dv' JaBa1.dv by matraI11.dv;
+sub matraI11.dv' JaMa1.dv by matraI12.dv;
+sub matraI12.dv' [JaYa1.dv JaNuktaYa1.dv] by matraI13.dv;
+sub matraI11.dv' JaVa1.dv by matraI10.dv;
+sub matraI13.dv' NyaJa1.dv by matraI14.dv;
+sub matraI10.dv' NaJa1.dv by matraI11.dv;
+sub matraI14.dv' [PhaJa1.dv PhaNuktaJaNukta1.dv] by matraI15.dv;
+sub matraI11.dv' [BaJa1.dv BaJaNukta1.dv] by matraI10.dv;
+sub matraI12.dv' [LaJa1.dv LaJaNukta1.dv] by matraI13.dv;
+#sub matraI12.dv' SaJa1.dv by matraI12.dv;
+
+
+sub matraIBindu4.dv' [Ja1.dv JaNukta1.dv JaRa1.dv JaNuktaRa1.dv] by matraIBindu5.dv;
+#sub matraIBindu13.dv' JaJaNya1.dv by matraIBindu13.dv;
+#sub matraIBindu18.dv' JaJaYa1.dv by matraIBindu18.dv;
+sub matraIBindu17.dv' JaJaVa1.dv by matraIBindu18.dv;
+#sub matraIBindu18.dv' NyaJaYa1.dv by matraIBindu18.dv;
+#sub matraIBindu17.dv' BaJaYa1.dv by matraIBindu17.dv;
+sub matraIBindu14.dv' KaJa1.dv by matraIBindu15.dv;
+sub matraIBindu10.dv' GaJa1.dv by matraIBindu11.dv;
+#sub matraIBindu10.dv' JaKa1.dv by matraIBindu10.dv;
+#sub matraIBindu13.dv' [JaJa1.dv JaNuktaJaNukta1.dv] by matraIBindu13.dv;
+sub matraIBindu14.dv' JaJha1.dv by matraIBindu15.dv;
+sub matraIBindu10.dv' JaTta1.dv by matraIBindu11.dv;
+sub matraIBindu10.dv' JaDda1.dv by matraIBindu11.dv;
+sub matraIBindu10.dv' JaTa1.dv by matraIBindu11.dv;
+sub matraIBindu10.dv' JaDa1.dv by matraIBindu11.dv;
+sub matraIBindu4.dv' JaNa1.dv by matraIBindu5.dv;
+sub matraIBindu10.dv' JaBa1.dv by matraIBindu11.dv;
+sub matraIBindu11.dv' JaMa1.dv by matraIBindu12.dv;
+sub matraIBindu12.dv' [JaYa1.dv JaNuktaYa1.dv] by matraIBindu13.dv;
+sub matraIBindu11.dv' JaVa1.dv by matraIBindu10.dv;
+sub matraIBindu13.dv' NyaJa1.dv by matraIBindu14.dv;
+sub matraIBindu10.dv' NaJa1.dv by matraIBindu11.dv;
+sub matraIBindu14.dv' [PhaJa1.dv PhaNuktaJaNukta1.dv] by matraIBindu15.dv;
+sub matraIBindu11.dv' [BaJa1.dv BaJaNukta1.dv] by matraIBindu10.dv;
+sub matraIBindu12.dv' [LaJa1.dv LaJaNukta1.dv] by matraIBindu13.dv;
+#sub matraIBindu12.dv' SaJa1.dv by matraIBindu12.dv;
+}salt4.1;
+
+
+}ss04;
+
+
+#--------------------------------------------------------------------
+
+
+
+feature salt{
+
+	lookup salt1;
+	lookup salt1.1;
+	lookup salt1.2;
+	lookup salt3;
+	lookup salt3.1;
+	lookup salt4;
+	lookup salt4.1;
+
+}salt;
+
+#--------------------------------------------------------------------
+
+
+
+

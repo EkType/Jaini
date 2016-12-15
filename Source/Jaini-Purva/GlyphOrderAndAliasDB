@@ -1,0 +1,1291 @@
+.notdef	.notdef	
+NULL	NULL	uni0000
+CR	uni000D	uni000D
+space	space	uni0020
+exclam	exclam	
+quotedbl	quotedbl	
+numbersign	numbersign	
+dollar	dollar	
+percent	percent	
+quotesingle	quotesingle	
+parenleft	parenleft	
+parenright	parenright	
+asterisk	asterisk	
+plus	plus	
+comma	comma	
+hyphen	hyphen	
+period	period	
+slash	slash	
+zero	zero	
+one	one	
+two	two	
+three	three	
+four	four	
+five	five	
+six	six	
+seven	seven	
+eight	eight	
+nine	nine	
+colon	colon	
+semicolon	semicolon	
+less	less	
+equal	equal	
+greater	greater	
+question	question	
+bracketleft	bracketleft	
+backslash	backslash	
+bracketright	bracketright	
+underscore	underscore	
+braceleft	braceleft	
+bar	bar	
+braceright	braceright	
+endash	endash	
+emdash	emdash	
+quoteleft	quoteleft	
+quoteright	quoteright	
+quotedblleft	quotedblleft	
+quotedblright	quotedblright	
+copyright	copyright	
+registered	registered	
+degree	degree	
+divide	divide	
+minus	minus	
+bullet	bullet	
+trademark	trademark	
+ellipsis	ellipsis	
+plusminus	plusminus	
+sterling	sterling	
+currency	currency	
+yen	yen	
+multiply	multiply	
+Euro	Euro
+uni20A8	uni20A8	
+uni0900	uni0900	uni0900
+Chandrabindu.dv	Chandrabindu.dv	uni0901
+Bindu.dv	Bindu.dv	uni0902
+Visarga.dv	Visarga.dv	uni0903
+vowelShortA.dv	vowelShortA.dv	uni0904
+vowelA.dv	vowelA.dv	uni0905
+vowelAa.dv	vowelAa.dv	uni0906
+vowelI.dv	vowelI.dv	uni0907
+vowelIi.dv	vowelIi.dv	uni0908
+vowelU.dv	vowelU.dv	uni0909
+vowelUu.dv	vowelUu.dv	uni090A
+vowelRu.dv	vowelRu.dv	uni090B
+vowelLru.dv	vowelLru.dv	uni090C
+vowelChandraE.dv	vowelChandraE.dv	uni090D
+vowelShortE.dv	vowelShortE.dv	uni090E
+vowelE.dv	vowelE.dv	uni090F
+vowelAi.dv	vowelAi.dv	uni0910
+vowelChandraO.dv	vowelChandraO.dv	uni0911
+vowelShortO.dv	vowelShortO.dv	uni0912
+vowelO.dv	vowelO.dv	uni0913
+vowelAu.dv	vowelAu.dv	uni0914
+Ka.dv	Ka.dv	uni0915
+Kha.dv	Kha.dv	uni0916
+Ga.dv	Ga.dv	uni0917
+Gha.dv	Gha.dv	uni0918
+Nga.dv	Nga.dv	uni0919
+Ca.dv	Ca.dv	uni091A
+Cha.dv	Cha.dv	uni091B
+Ja.dv	Ja.dv	uni091C
+Jha.dv	Jha.dv	uni091D
+Nya.dv	Nya.dv	uni091E
+Tta.dv	Tta.dv	uni091F
+Ttha.dv	Ttha.dv	uni0920
+Dda.dv	Dda.dv	uni0921
+Ddha.dv	Ddha.dv	uni0922
+Nna.dv	Nna.dv	uni0923
+Ta.dv	Ta.dv	uni0924
+Tha.dv	Tha.dv	uni0925
+Da.dv	Da.dv	uni0926
+Dha.dv	Dha.dv	uni0927
+Na.dv	Na.dv	uni0928
+NaNukta.dv	NaNukta.dv	uni0929
+Pa.dv	Pa.dv	uni092A
+Pha.dv	Pha.dv	uni092B
+Ba.dv	Ba.dv	uni092C
+Bha.dv	Bha.dv	uni092D
+Ma.dv	Ma.dv	uni092E
+Ya.dv	Ya.dv	uni092F
+Ra.dv	Ra.dv	uni0930
+RaNukta.dv	RaNukta.dv	uni0931
+La.dv	La.dv	uni0932
+Lla.dv	Lla.dv	uni0933
+LlaNukta.dv	LlaNukta.dv	uni0934
+Va.dv	Va.dv	uni0935
+Sha.dv	Sha.dv	uni0936
+Ssa.dv	Ssa.dv	uni0937
+Sa.dv	Sa.dv	uni0938
+Ha.dv	Ha.dv	uni0939
+uni093A	uni093A	uni093A
+uni093B	uni093B	uni093B
+Nukta.dv	Nukta.dv	uni093C
+Avagraha.dv	Avagraha.dv	uni093D
+matraA.dv	matraA.dv	uni093E
+matraI.dv	matraI.dv	uni093F
+matraIi.dv	matraIi.dv	uni0940
+matraU.dv	matraU.dv	uni0941
+matraUu.dv	matraUu.dv	uni0942
+matraRu.dv	matraRu.dv	uni0943
+matraRuu.dv	matraRuu.dv	uni0944
+Chandra.dv	Chandra.dv	uni0945
+matraShortE.dv	matraShortE.dv	uni0946
+matraE.dv	matraE.dv	uni0947
+matraAi.dv	matraAi.dv	uni0948
+matraAChandra.dv	matraAChandra.dv	uni0949
+matraShortO.dv	matraShortO.dv	uni094A
+matraO.dv	matraO.dv	uni094B
+matraAu.dv	matraAu.dv	uni094C
+Halant.dv	Halant.dv	uni094D
+uni094E	uni094E	uni094E
+matraShortAu.dv	matraShortAu.dv	uni094F
+Om.dv	Om.dv	uni0950
+Udatta.dv	Udatta.dv	uni0951
+Anudatta.dv	Anudatta.dv	uni0952
+uni0953	uni0953	uni0953
+uni0954	uni0954	uni0954
+uni0955	uni0955	uni0955
+uni0956	uni0956	uni0956
+uni0957	uni0957	uni0957
+KaNukta.dv	KaNukta.dv	uni0958
+KhaNukta.dv	KhaNukta.dv	uni0959
+GaNukta.dv	GaNukta.dv	uni095A
+JaNukta.dv	JaNukta.dv	uni095B
+DdaNukta.dv	DdaNukta.dv	uni095C
+DdhaNukta.dv	DdhaNukta.dv	uni095D
+PhaNukta.dv	PhaNukta.dv	uni095E
+YaNukta.dv	YaNukta.dv	uni095F
+vowelRuu.dv	vowelRuu.dv	uni0960
+vowelLruu.dv	vowelLruu.dv	uni0961
+matraLru.dv	matraLru.dv	uni0962
+matraLruu.dv	matraLruu.dv	uni0963
+Danda.dv	Danda.dv	uni0964
+Doubledanda.dv	Doubledanda.dv	uni0965
+uni0966	uni0966	uni0966
+uni0967	uni0967	uni0967
+uni0968	uni0968	uni0968
+uni0969	uni0969	uni0969
+uni096A	uni096A	uni096A
+uni096B	uni096B	uni096B
+uni096C	uni096C	uni096C
+uni096D	uni096D	uni096D
+uni096E	uni096E	uni096E
+uni096F	uni096F	uni096F
+uni0970	uni0970	uni0970
+uni0971	uni0971	uni0971
+vowelChandraA.dv	vowelChandraA.dv	uni0972
+uni0973	uni0973	uni0973
+uni0974	uni0974	uni0974
+uni0975	uni0975	uni0975
+uni0976	uni0976	uni0976
+uni0977	uni0977	uni0977
+uni0978	uni0978	uni0978
+uni0979	uni0979	uni0979
+uni097A	uni097A	uni097A
+uni097B	uni097B	uni097B
+uni097C	uni097C	uni097C
+uni097D	uni097D	uni097D
+uni097E	uni097E	uni097E
+uni097F	uni097F	uni097F
+KaSsa.dv	KaSsa.dv	
+JaNya.dv	JaNya.dv	
+La.MAR.dv	La.MAR.dv	
+Sha.MAR.dv	Sha.MAR.dv	
+KaHalant.dv	KaHalant.dv	
+KhaHalant.dv	KhaHalant.dv	
+GaHalant.dv	GaHalant.dv	
+GhaHalant.dv	GhaHalant.dv	
+NgaHalant.dv	NgaHalant.dv	
+CaHalant.dv	CaHalant.dv	
+ChaHalant.dv	ChaHalant.dv	
+JaHalant.dv	JaHalant.dv	
+JhaHalant.dv	JhaHalant.dv	
+NyaHalant.dv	NyaHalant.dv	
+TtaHalant.dv	TtaHalant.dv	
+TthaHalant.dv	TthaHalant.dv	
+DdaHalant.dv	DdaHalant.dv	
+DdhaHalant.dv	DdhaHalant.dv	
+NnaHalant.dv	NnaHalant.dv	
+TaHalant.dv	TaHalant.dv	
+ThaHalant.dv	ThaHalant.dv	
+DaHalant.dv	DaHalant.dv	
+DhaHalant.dv	DhaHalant.dv	
+NaHalant.dv	NaHalant.dv	
+PaHalant.dv	PaHalant.dv	
+PhaHalant.dv	PhaHalant.dv	
+BaHalant.dv	BaHalant.dv	
+BhaHalant.dv	BhaHalant.dv	
+MaHalant.dv	MaHalant.dv	
+YaHalant.dv	YaHalant.dv	
+RaHalant.dv	RaHalant.dv	
+LaHalant.dv	LaHalant.dv	
+LlaHalant.dv	LlaHalant.dv	
+VaHalant.dv	VaHalant.dv	
+ShaHalant.dv	ShaHalant.dv	
+SsaHalant.dv	SsaHalant.dv	
+SaHalant.dv	SaHalant.dv	
+HaHalant.dv	HaHalant.dv	
+ShaHalant.MAR.dv	ShaHalant.MAR.dv	
+ShaHalant1.dv	ShaHalant1.dv	
+LaHalant.MAR.dv	LaHalant.MAR.dv	
+KaNuktaHalant.dv	KaNuktaHalant.dv	
+KhaNuktaHalant.dv	KhaNuktaHalant.dv	
+GaNuktaHalant.dv	GaNuktaHalant.dv	
+JaNuktaHalant.dv	JaNuktaHalant.dv	
+DdaNuktaHalant.dv	DdaNuktaHalant.dv	
+DdhaNuktaHalant.dv	DdhaNuktaHalant.dv	
+NaNuktaHalant.dv	NaNuktaHalant.dv	
+PhaNuktaHalant.dv	PhaNuktaHalant.dv	
+YaNuktaHalant.dv	YaNuktaHalant.dv	
+RaNuktaHalant.dv	RaNuktaHalant.dv	
+LlaNuktaHalant.dv	LlaNuktaHalant.dv	
+KaSsaHalant.dv	KaSsaHalant.dv	
+JaNyaHalant.dv	JaNyaHalant.dv	
+DaRaHalant.dv	DaRaHalant.dv	
+ChaRaHalant.dv	ChaRaHalant.dv	
+DdhaRaHalant.dv	DdhaRaHalant.dv	
+KaHalf.dv	KaHalf.dv	
+KhaHalf.dv	KhaHalf.dv	
+GaHalf.dv	GaHalf.dv	
+GhaHalf.dv	GhaHalf.dv	
+CaHalf.dv	CaHalf.dv	
+JaHalf.dv	JaHalf.dv	
+JhaHalf.dv	JhaHalf.dv	
+NyaHalf.dv	NyaHalf.dv	
+NnaHalf.dv	NnaHalf.dv	
+TaHalf.dv	TaHalf.dv	
+ThaHalf.dv	ThaHalf.dv	
+DhaHalf.dv	DhaHalf.dv	
+NaHalf.dv	NaHalf.dv	
+PaHalf.dv	PaHalf.dv	
+PhaHalf.dv	PhaHalf.dv	
+PhaHalf1.dv	PhaHalf1.dv	
+BaHalf.dv	BaHalf.dv	
+BhaHalf.dv	BhaHalf.dv	
+MaHalf.dv	MaHalf.dv	
+YaHalf.dv	YaHalf.dv	
+LaHalf.dv	LaHalf.dv	
+VaHalf.dv	VaHalf.dv	
+ShaHalf.dv	ShaHalf.dv	
+SsaHalf.dv	SsaHalf.dv	
+SaHalf.dv	SaHalf.dv	
+SaHalf1.dv	SaHalf1.dv	
+LlaHalf.dv	LlaHalf.dv	
+ShaHalf.MAR.dv	ShaHalf.MAR.dv	
+KaNuktaHalf.dv	KaNuktaHalf.dv	
+KhaNuktaHalf.dv	KhaNuktaHalf.dv	
+GaNuktaHalf.dv	GaNuktaHalf.dv	
+JaNuktaHalf.dv	JaNuktaHalf.dv	
+PhaNuktaHalf.dv	PhaNuktaHalf.dv	
+YaNuktaHalf.dv	YaNuktaHalf.dv	
+NaNuktaHalf.dv	NaNuktaHalf.dv	
+RaNuktaHalf.dv	RaNuktaHalf.dv	
+KaRaHalf.dv	KaRaHalf.dv	
+GhaRaHalf.dv	GhaRaHalf.dv	
+TaRaHalf.dv	TaRaHalf.dv	
+DhaRaHalf.dv	DhaRaHalf.dv	
+PaRaHalf.dv	PaRaHalf.dv	
+VaRaHalf.dv	VaRaHalf.dv	
+ShaRaHalf.dv	ShaRaHalf.dv	
+SsaRaHalf.dv	SsaRaHalf.dv	
+SaRaHalf.dv	SaRaHalf.dv	
+GaRaHalf.dv	GaRaHalf.dv	
+BhaRaHalf.dv	BhaRaHalf.dv	
+KaSsaHalf.dv	KaSsaHalf.dv	
+JaNyaHalf.dv	JaNyaHalf.dv	
+TaTaHalf.dv	TaTaHalf.dv	
+NaBhaHalf.dv	NaBhaHalf.dv	
+NaSaHalf.dv	NaSaHalf.dv	
+BaLaHalf.dv	BaLaHalf.dv	
+MaBhaHalf.dv	MaBhaHalf.dv	
+LaBhaHalf.dv	LaBhaHalf.dv	
+KaSsaMaHalf.dv	KaSsaMaHalf.dv	
+KamatraU.dv	KamatraU.dv	
+KamatraUu.dv	KamatraUu.dv	
+KamatraRu.dv	KamatraRu.dv	
+KhamatraU.dv	KhamatraU.dv	
+KhamatraUu.dv	KhamatraUu.dv	
+KhamatraRu.dv	KhamatraRu.dv	
+GamatraU.dv	GamatraU.dv	
+GamatraUu.dv	GamatraUu.dv	
+GamatraRu.dv	GamatraRu.dv	
+GhamatraU.dv	GhamatraU.dv	
+GhamatraUu.dv	GhamatraUu.dv	
+GhamatraRu.dv	GhamatraRu.dv	
+NgamatraU.dv	NgamatraU.dv	
+NgamatraUu.dv	NgamatraUu.dv	
+NgamatraRu.dv	NgamatraRu.dv	
+CamatraU.dv	CamatraU.dv	
+CamatraUu.dv	CamatraUu.dv	
+CamatraRu.dv	CamatraRu.dv	
+ChamatraU.dv	ChamatraU.dv	
+ChamatraUu.dv	ChamatraUu.dv	
+ChamatraRu.dv	ChamatraRu.dv	
+JamatraU.dv	JamatraU.dv	
+JamatraUu.dv	JamatraUu.dv	
+JamatraRu.dv	JamatraRu.dv	
+JhamatraU.dv	JhamatraU.dv	
+JhamatraUu.dv	JhamatraUu.dv	
+JhamatraRu.dv	JhamatraRu.dv	
+NyamatraU.dv	NyamatraU.dv	
+Nyamatrauu.dv	Nyamatrauu.dv	
+NyamatraRu.dv	NyamatraRu.dv	
+TtamatraU.dv	TtamatraU.dv	
+TtamatraUu.dv	TtamatraUu.dv	
+TtamatraRu.dv	TtamatraRu.dv	
+TthamatraU.dv	TthamatraU.dv	
+TthamatraUu.dv	TthamatraUu.dv	
+TthamatraRu.dv	TthamatraRu.dv	
+DdamatraU.dv	DdamatraU.dv	
+DdamatraUu.dv	DdamatraUu.dv	
+DdamatraRu.dv	DdamatraRu.dv	
+DdhamatraU.dv	DdhamatraU.dv	
+DdhamatraUu.dv	DdhamatraUu.dv	
+DdhamatraRu.dv	DdhamatraRu.dv	
+NnamatraU.dv	NnamatraU.dv	
+NnamatraUu.dv	NnamatraUu.dv	
+NnamatraRu.dv	NnamatraRu.dv	
+TamatraU.dv	TamatraU.dv	
+TamatraUu.dv	TamatraUu.dv	
+TamatraRu.dv	TamatraRu.dv	
+ThamatraU.dv	ThamatraU.dv	
+ThamatraUu.dv	ThamatraUu.dv	
+ThamatraRu.dv	ThamatraRu.dv	
+DamatraU.dv	DamatraU.dv	
+DamatraUu.dv	DamatraUu.dv	
+DamatraRu.dv	DamatraRu.dv	
+DhamatraU.dv	DhamatraU.dv	
+DhamatraUu.dv	DhamatraUu.dv	
+DhamatraRu.dv	DhamatraRu.dv	
+NamatraU.dv	NamatraU.dv	
+NamatraUu.dv	NamatraUu.dv	
+NamatraRu.dv	NamatraRu.dv	
+PamatraU.dv	PamatraU.dv	
+PamatraUu.dv	PamatraUu.dv	
+PamatraRu.dv	PamatraRu.dv	
+PhamatraU.dv	PhamatraU.dv	
+PhamatraUu.dv	PhamatraUu.dv	
+PhamatraRu.dv	PhamatraRu.dv	
+BamatraU.dv	BamatraU.dv	
+BamatraUu.dv	BamatraUu.dv	
+BamatraRu.dv	BamatraRu.dv	
+BhamatraU.dv	BhamatraU.dv	
+BhamatraUu.dv	BhamatraUu.dv	
+BhamatraRu.dv	BhamatraRu.dv	
+MamatraU.dv	MamatraU.dv	
+MamatraUu.dv	MamatraUu.dv	
+MamatraRu.dv	MamatraRu.dv	
+YamatraU.dv	YamatraU.dv	
+YamatraU1.dv	YamatraU1.dv	
+YamatraUu.dv	YamatraUu.dv	
+YamatraRu.dv	YamatraRu.dv	
+RamatraU.dv	RamatraU.dv	
+RamatraUu.dv	RamatraUu.dv	
+LamatraU.dv	LamatraU.dv	
+LamatraUu.dv	LamatraUu.dv	
+LamatraRu.dv	LamatraRu.dv	
+LlamatraU.dv	LlamatraU.dv	
+LlamatraUu.dv	LlamatraUu.dv	
+LlamatraRu.dv	LlamatraRu.dv	
+VamatraU.dv	VamatraU.dv	
+VamatraUu.dv	VamatraUu.dv	
+VamatraRu.dv	VamatraRu.dv	
+ShamatraU.dv	ShamatraU.dv	
+ShamatraUu.dv	ShamatraUu.dv	
+ShamatraRu.dv	ShamatraRu.dv	
+SsamatraU.dv	SsamatraU.dv	
+SsamatraUu.dv	SsamatraUu.dv	
+SsamatraRu.dv	SsamatraRu.dv	
+SamatraU.dv	SamatraU.dv	
+SamatraUu.dv	SamatraUu.dv	
+SamatraRu.dv	SamatraRu.dv	
+HamatraU.dv	HamatraU.dv	
+HamatraUu.dv	HamatraUu.dv	
+HamatraRu.dv	HamatraRu.dv	
+ShamatraU1.dv	ShamatraU1.dv	
+ShamatraUu1.dv	ShamatraUu1.dv	
+ShamatraRu1.dv	ShamatraRu1.dv	
+ShamatraU.MAR.dv	ShamatraU.MAR.dv	
+ShamatraUu.MAR.dv	ShamatraUu.MAR.dv	
+ShamatraRu.MAR.dv	ShamatraRu.MAR.dv	
+LamatraU.MAR.dv	LamatraU.MAR.dv	
+LamatraUu.MAR.dv	LamatraUu.MAR.dv	
+LamatraRu.MAR.dv	LamatraRu.MAR.dv	
+KaSsamatraU.dv	KaSsamatraU.dv	
+JaNyamatraU.dv	JaNyamatraU.dv	
+KaNuktamatraU.dv	KaNuktamatraU.dv	
+KaNuktamatraUu.dv	KaNuktamatraUu.dv	
+KaNuktamatraRu.dv	KaNuktamatraRu.dv	
+KhaNuktamatraU.dv	KhaNuktamatraU.dv	
+KhaNuktamatraUu.dv	KhaNuktamatraUu.dv	
+KhaNuktamatraRu.dv	KhaNuktamatraRu.dv	
+GaNuktamatraU.dv	GaNuktamatraU.dv	
+GaNuktamatraUu.dv	GaNuktamatraUu.dv	
+GaNuktamatraRu.dv	GaNuktamatraRu.dv	
+JaNuktamatraU.dv	JaNuktamatraU.dv	
+JaNuktamatraUu.dv	JaNuktamatraUu.dv	
+JaNuktamatraRu.dv	JaNuktamatraRu.dv	
+DdaNuktamatraU.dv	DdaNuktamatraU.dv	
+DdaNuktamatraUu.dv	DdaNuktamatraUu.dv	
+DdaNuktamatraRu.dv	DdaNuktamatraRu.dv	
+DdhaNuktamatraU.dv	DdhaNuktamatraU.dv	
+DdhaNuktamatraUu.dv	DdhaNuktamatraUu.dv	
+DdhaNuktamatraRu.dv	DdhaNuktamatraRu.dv	
+NaNuktamatraU.dv	NaNuktamatraU.dv	
+NaNuktamatraUu.dv	NaNuktamatraUu.dv	
+NaNuktamatraRu.dv	NaNuktamatraRu.dv	
+PhaNuktamatraU.dv	PhaNuktamatraU.dv	
+PhaNuktamatraUu.dv	PhaNuktamatraUu.dv	
+PhaNuktamatraRu.dv	PhaNuktamatraRu.dv	
+YaNuktamatraU.dv	YaNuktamatraU.dv	
+YaNuktamatraUu.dv	YaNuktamatraUu.dv	
+YaNuktamatraRu.dv	YaNuktamatraRu.dv	
+RaNuktamatraU.dv	RaNuktamatraU.dv	
+RaNuktamatraUu.dv	RaNuktamatraUu.dv	
+LlaNuktamatraU.dv	LlaNuktamatraU.dv	
+LlaNuktamatraUu.dv	LlaNuktamatraUu.dv	
+LlaNuktamatraRu.dv	LlaNuktamatraRu.dv	
+KaRa.dv	KaRa.dv	
+KhaRa.dv	KhaRa.dv	
+GaRa.dv	GaRa.dv	
+GhaRa.dv	GhaRa.dv	
+NgaRa.dv	NgaRa.dv	
+CaRa.dv	CaRa.dv	
+ChaRa.dv	ChaRa.dv	
+JaRa.dv	JaRa.dv	
+JhaRa.dv	JhaRa.dv	
+NyaRa.dv	NyaRa.dv	
+TtaRa.dv	TtaRa.dv	
+TthaRa.dv	TthaRa.dv	
+DdaRa.dv	DdaRa.dv	
+DdhaRa.dv	DdhaRa.dv	
+NnaRa.dv	NnaRa.dv	
+TaRa.dv	TaRa.dv	
+ThaRa.dv	ThaRa.dv	
+DaRa.dv	DaRa.dv	
+DhaRa.dv	DhaRa.dv	
+NaRa.dv	NaRa.dv	
+PaRa.dv	PaRa.dv	
+PhaRa.dv	PhaRa.dv	
+BaRa.dv	BaRa.dv	
+BhaRa.dv	BhaRa.dv	
+MaRa.dv	MaRa.dv	
+YaRa.dv	YaRa.dv	
+LaRa.dv	LaRa.dv	
+LlaRa.dv	LlaRa.dv	
+VaRa.dv	VaRa.dv	
+ShaRa.dv	ShaRa.dv	
+SsaRa.dv	SsaRa.dv	
+SaRa.dv	SaRa.dv	
+HaRa.dv	HaRa.dv	
+KaNuktaRa.dv	KaNuktaRa.dv	
+KhaNuktaRa.dv	KhaNuktaRa.dv	
+GaNuktaRa.dv	GaNuktaRa.dv	
+JaNuktaRa.dv	JaNuktaRa.dv	
+PhaNuktaRa.dv	PhaNuktaRa.dv	
+YaNuktaRa.dv	YaNuktaRa.dv	
+KaSsaRa.dv	KaSsaRa.dv	
+JaNyaRa.dv	JaNyaRa.dv	
+SsaTtaRa.dv	SsaTtaRa.dv	
+KaSaTtaRa.dv	KaSaTtaRa.dv	
+ChaRaYa.dv	ChaRaYa.dv	
+TtaTtaYa.dv	TtaTtaYa.dv	
+TthaTthaYa.dv	TthaTthaYa.dv	
+DdaDdaYa.dv	DdaDdaYa.dv	
+DdhaRaYa.dv	DdhaRaYa.dv	
+DaDaYa.dv	DaDaYa.dv	
+DaDhaYa.dv	DaDhaYa.dv	
+DaDhaVa.dv	DaDhaVa.dv	
+DaBhaYa.dv	DaBhaYa.dv	
+DaRaYa.dv	DaRaYa.dv	
+DaVaYa.dv	DaVaYa.dv	
+DhaNaYa.dv	DhaNaYa.dv	
+NaNaYa.dv	NaNaYa.dv	
+BhaRaYa.dv	BhaRaYa.dv	
+ShaRaYa.dv	ShaRaYa.dv	
+SsaTtaYa.dv	SsaTtaYa.dv	
+SsaTtaVa.dv	SsaTtaVa.dv	
+SsaTthaYa.dv	SsaTthaYa.dv	
+ChaYa.dv	ChaYa.dv	
+ChaVa.dv	ChaVa.dv	
+NgaKa.dv	NgaKa.dv	
+NgaGa.dv	NgaGa.dv	
+NgaMa.dv	NgaMa.dv	
+NgaYa.dv	NgaYa.dv	
+TtaTta.dv	TtaTta.dv	
+TtaTtha.dv	TtaTtha.dv	
+TtaYa.dv	TtaYa.dv	
+TtaVa.dv	TtaVa.dv	
+TthaTtha.dv	TthaTtha.dv	
+TthaYa.dv	TthaYa.dv	
+DdaDda.dv	DdaDda.dv	
+DdaDdha.dv	DdaDdha.dv	
+DdaYa.dv	DdaYa.dv	
+DdhaDdha.dv	DdhaDdha.dv	
+DdhaYa.dv	DdhaYa.dv	
+DaGa.dv	DaGa.dv	
+DaDa.dv	DaDa.dv	
+DaDha.dv	DaDha.dv	
+DaNa.dv	DaNa.dv	
+DaBa.dv	DaBa.dv	
+DaBha.dv	DaBha.dv	
+DaMa.dv	DaMa.dv	
+DaYa.dv	DaYa.dv	
+DaVa.dv	DaVa.dv	
+KaSsaMaYa.dv	KaSsaMaYa.dv	
+KaSaPaRa.dv	KaSaPaRa.dv	
+KaSaPaLa.dv	KaSaPaLa.dv	
+NaSaKaRa.dv	NaSaKaRa.dv	
+TaSaNaYa.dv	TaSaNaYa.dv	
+NaPhaLaYa.dv	NaPhaLaYa.dv	
+NaTaRaYa.dv	NaTaRaYa.dv	
+NaSaMaYa.dv	NaSaMaYa.dv	
+BaSaTtaRa.dv	BaSaTtaRa.dv	
+KaTaYa.dv	KaTaYa.dv	
+KaTaRa.dv	KaTaRa.dv	
+KaTaVa.dv	KaTaVa.dv	
+KaPaRa.dv	KaPaRa.dv	
+KaVaYa.dv	KaVaYa.dv	
+KaSsaMa.dv	KaSsaMa.dv	
+KaSsaYa.dv	KaSsaYa.dv	
+KaSsaVa.dv	KaSsaVa.dv	
+KaSaTta.dv	KaSaTta.dv	
+KaSaDda.dv	KaSaDda.dv	
+KaSaTa.dv	KaSaTa.dv	
+KaSaPa.dv	KaSaPa.dv	
+KhaKhaYa.dv	KhaKhaYa.dv	
+GaDhaVa.dv	GaDhaVa.dv	
+GaDhaYa.dv	GaDhaYa.dv	
+GaNaYa.dv	GaNaYa.dv	
+GaBhaYa.dv	GaBhaYa.dv	
+GaRaYa.dv	GaRaYa.dv	
+CaChaVa.dv	CaChaVa.dv	
+JaJaNya.dv	JaJaNya.dv	
+JaJaYa.dv	JaJaYa.dv	
+JaJaVa.dv	JaJaVa.dv	
+JaNyaYa.dv	JaNyaYa.dv	
+NyaCaYa.dv	NyaCaYa.dv	
+NyaJaYa.dv	NyaJaYa.dv	
+TaKaYa.dv	TaKaYa.dv	
+TaKaRa.dv	TaKaRa.dv	
+TaKaVa.dv	TaKaVa.dv	
+TaKaSsa.dv	TaKaSsa.dv	
+TaKhaNa.dv	TaKhaNa.dv	
+TaKhaRa.dv	TaKhaRa.dv	
+TaTaYa.dv	TaTaYa.dv	
+TaTaVa.dv	TaTaVa.dv	
+TaNaYa.dv	TaNaYa.dv	
+TaPaRa.dv	TaPaRa.dv	
+TaPaLa.dv	TaPaLa.dv	
+TaMaYa.dv	TaMaYa.dv	
+TaRaYa.dv	TaRaYa.dv	
+TaSaPha.dv	TaSaPha.dv	
+TaSaNa.dv	TaSaNa.dv	
+TaSaYa.dv	TaSaYa.dv	
+TaSaVa.dv	TaSaVa.dv	
+NaKaSa.dv	NaKaSa.dv	
+NaTaYa.dv	NaTaYa.dv	
+NaTaRa.dv	NaTaRa.dv	
+NaTaSa.dv	NaTaSa.dv	
+NaThaYa.dv	NaThaYa.dv	
+NaThaVa.dv	NaThaVa.dv	
+NaDaRa.dv	NaDaRa.dv	
+NaDaVa.dv	NaDaVa.dv	
+NaDhaYa.dv	NaDhaYa.dv	
+NaDhaRa.dv	NaDhaRa.dv	
+NaDhaVa.dv	NaDhaVa.dv	
+NaPaRa.dv	NaPaRa.dv	
+NaBhaYa.dv	NaBhaYa.dv	
+NaBhaVa.dv	NaBhaVa.dv	
+NaMaYa.dv	NaMaYa.dv	
+NaVaHa.dv	NaVaHa.dv	
+NaSaTta.dv	NaSaTta.dv	
+NaSaYa.dv	NaSaYa.dv	
+NaHaYa.dv	NaHaYa.dv	
+PaTaYa.dv	PaTaYa.dv	
+PaPaYa.dv	PaPaYa.dv	
+BaJaYa.dv	BaJaYa.dv	
+BaDhaVa.dv	BaDhaVa.dv	
+BaBhaRa.dv	BaBhaRa.dv	
+BaLaYa.dv	BaLaYa.dv	
+MaPaRa.dv	MaPaRa.dv	
+MaBaYa.dv	MaBaYa.dv	
+MaBaRa.dv	MaBaRa.dv	
+MaBhaYa.dv	MaBhaYa.dv	
+MaBhaRa.dv	MaBhaRa.dv	
+MaBhaVa.dv	MaBhaVa.dv	
+LaKaYa.dv	LaKaYa.dv	
+LaThaYa.dv	LaThaYa.dv	
+LaDaRa.dv	LaDaRa.dv	
+LaLaYa.dv	LaLaYa.dv	
+LaVaDda.dv	LaVaDda.dv	
+LaHaYa.dv	LaHaYa.dv	
+SsaKaRa.dv	SsaKaRa.dv	
+SsaNnaYa.dv	SsaNnaYa.dv	
+SsaPaRa.dv	SsaPaRa.dv	
+SsaMaYa.dv	SsaMaYa.dv	
+SaKaRa.dv	SaKaRa.dv	
+SaKaVa.dv	SaKaVa.dv	
+SaTaYa.dv	SaTaYa.dv	
+SaTaRa.dv	SaTaRa.dv	
+SaTaVa.dv	SaTaVa.dv	
+SaThaYa.dv	SaThaYa.dv	
+SaPaRa.dv	SaPaRa.dv	
+SaMaYa.dv	SaMaYa.dv	
+HaMaYa.dv	HaMaYa.dv	
+KaKa.dv	KaKa.dv	
+KaKha.dv	KaKha.dv	
+KaCa.dv	KaCa.dv	
+KaJa.dv	KaJa.dv	
+KaJha.dv	KaJha.dv	
+KaTta.dv	KaTta.dv	
+KaNna.dv	KaNna.dv	
+KaTa.dv	KaTa.dv	
+KaTha.dv	KaTha.dv	
+KaDa.dv	KaDa.dv	
+KaNa.dv	KaNa.dv	
+KaPa.dv	KaPa.dv	
+KaPha.dv	KaPha.dv	
+KaMa.dv	KaMa.dv	
+KaYa.dv	KaYa.dv	
+KaLa.dv	KaLa.dv	
+KaVa.dv	KaVa.dv	
+KaSha.dv	KaSha.dv	
+KaSa.dv	KaSa.dv	
+KhaKha.dv	KhaKha.dv	
+KhaTa.dv	KhaTa.dv	
+KhaNa.dv	KhaNa.dv	
+KhaMa.dv	KhaMa.dv	
+KhaYa.dv	KhaYa.dv	
+KhaVa.dv	KhaVa.dv	
+KhaSha.dv	KhaSha.dv	
+GaGa.dv	GaGa.dv	
+GaGha.dv	GaGha.dv	
+GaJa.dv	GaJa.dv	
+GaNna.dv	GaNna.dv	
+GaDa.dv	GaDa.dv	
+GaDha.dv	GaDha.dv	
+GaNa.dv	GaNa.dv	
+GaBa.dv	GaBa.dv	
+GaBha.dv	GaBha.dv	
+GaMa.dv	GaMa.dv	
+GaYa.dv	GaYa.dv	
+GaLa.dv	GaLa.dv	
+GaVa.dv	GaVa.dv	
+GaSa.dv	GaSa.dv	
+GhaNa.dv	GhaNa.dv	
+GhaMa.dv	GhaMa.dv	
+GhaYa.dv	GhaYa.dv	
+CaCa.dv	CaCa.dv	
+CaCha.dv	CaCha.dv	
+CaNa.dv	CaNa.dv	
+CaMa.dv	CaMa.dv	
+CaYa.dv	CaYa.dv	
+JaKa.dv	JaKa.dv	
+JaJa.dv	JaJa.dv	
+JaJha.dv	JaJha.dv	
+JaTta.dv	JaTta.dv	
+JaDda.dv	JaDda.dv	
+JaTa.dv	JaTa.dv	
+JaDa.dv	JaDa.dv	
+JaNa.dv	JaNa.dv	
+JaBa.dv	JaBa.dv	
+JaMa.dv	JaMa.dv	
+JaYa.dv	JaYa.dv	
+JaVa.dv	JaVa.dv	
+JhaJha.dv	JhaJha.dv	
+JhaNa.dv	JhaNa.dv	
+JhaMa.dv	JhaMa.dv	
+JhaYa.dv	JhaYa.dv	
+NyaCa.dv	NyaCa.dv	
+NyaCha.dv	NyaCha.dv	
+NyaJa.dv	NyaJa.dv	
+NyaSha.dv	NyaSha.dv	
+NnaTta.dv	NnaTta.dv	
+NnaTtha.dv	NnaTtha.dv	
+NnaDda.dv	NnaDda.dv	
+NnaDdha.dv	NnaDdha.dv	
+NnaNna.dv	NnaNna.dv	
+NnaMa.dv	NnaMa.dv	
+NnaYa.dv	NnaYa.dv	
+NnaVa.dv	NnaVa.dv	
+NnaHa.dv	NnaHa.dv	
+TaKa.dv	TaKa.dv	
+TaKha.dv	TaKha.dv	
+TaTa.dv	TaTa.dv	
+TaTha.dv	TaTha.dv	
+TaNa.dv	TaNa.dv	
+TaPa.dv	TaPa.dv	
+TaPha.dv	TaPha.dv	
+TaMa.dv	TaMa.dv	
+TaYa.dv	TaYa.dv	
+TaLa.dv	TaLa.dv	
+TaVa.dv	TaVa.dv	
+TaSa.dv	TaSa.dv	
+ThaTha.dv	ThaTha.dv	
+ThaYa.dv	ThaYa.dv	
+ThaVa.dv	ThaVa.dv	
+DhaNa.dv	DhaNa.dv	
+DhaMa.dv	DhaMa.dv	
+DhaYa.dv	DhaYa.dv	
+DhaVa.dv	DhaVa.dv	
+NaKa.dv	NaKa.dv	
+NaGa.dv	NaGa.dv	
+NaCa.dv	NaCa.dv	
+NaCha.dv	NaCha.dv	
+NaJa.dv	NaJa.dv	
+NaTta.dv	NaTta.dv	
+NaDda.dv	NaDda.dv	
+NaTa.dv	NaTa.dv	
+NaTha.dv	NaTha.dv	
+NaDa.dv	NaDa.dv	
+NaDha.dv	NaDha.dv	
+NaNa.dv	NaNa.dv	
+NaPa.dv	NaPa.dv	
+NaPha.dv	NaPha.dv	
+NaBha.dv	NaBha.dv	
+NaMa.dv	NaMa.dv	
+NaYa.dv	NaYa.dv	
+NaVa.dv	NaVa.dv	
+NaSha.dv	NaSha.dv	
+NaSa.dv	NaSa.dv	
+NaHa.dv	NaHa.dv	
+PaCha.dv	PaCha.dv	
+PaTta.dv	PaTta.dv	
+PaTa.dv	PaTa.dv	
+PaNa.dv	PaNa.dv	
+PaPa.dv	PaPa.dv	
+PaPha.dv	PaPha.dv	
+PaMa.dv	PaMa.dv	
+PaYa.dv	PaYa.dv	
+PaLa.dv	PaLa.dv	
+PaVa.dv	PaVa.dv	
+PaSha.dv	PaSha.dv	
+PaSa.dv	PaSa.dv	
+PhaJa.dv	PhaJa.dv	
+PhaTta.dv	PhaTta.dv	
+PhaTa.dv	PhaTa.dv	
+PhaTha.dv	PhaTha.dv	
+PhaPa.dv	PhaPa.dv	
+PhaPha.dv	PhaPha.dv	
+PhaYa.dv	PhaYa.dv	
+PhaLa.dv	PhaLa.dv	
+PhaSha.dv	PhaSha.dv	
+BaJa.dv	BaJa.dv	
+BaJha.dv	BaJha.dv	
+BaDda.dv	BaDda.dv	
+BaTa.dv	BaTa.dv	
+BaDa.dv	BaDa.dv	
+BaDha.dv	BaDha.dv	
+BaNa.dv	BaNa.dv	
+BaBa.dv	BaBa.dv	
+BaBha.dv	BaBha.dv	
+BaYa.dv	BaYa.dv	
+BaLa.dv	BaLa.dv	
+BaVa.dv	BaVa.dv	
+BaSha.dv	BaSha.dv	
+BaSa.dv	BaSa.dv	
+BaJaNukta.dv	BaJaNukta.dv	
+BhaYa.dv	BhaYa.dv	
+BhaLa.dv	BhaLa.dv	
+BhaVa.dv	BhaVa.dv	
+MaTa.dv	MaTa.dv	
+MaDa.dv	MaDa.dv	
+MaNa.dv	MaNa.dv	
+MaPa.dv	MaPa.dv	
+MaPha.dv	MaPha.dv	
+MaBa.dv	MaBa.dv	
+MaBha.dv	MaBha.dv	
+MaMa.dv	MaMa.dv	
+MaYa.dv	MaYa.dv	
+MaLa.dv	MaLa.dv	
+MaVa.dv	MaVa.dv	
+MaSha.dv	MaSha.dv	
+MaSa.dv	MaSa.dv	
+MaHa.dv	MaHa.dv	
+YaYa.dv	YaYa.dv	
+RaNuktaYa.dv	RaNuktaYa.dv	
+RaNuktaHa.dv	RaNuktaHa.dv	
+LaKa.dv	LaKa.dv	
+LaKha.dv	LaKha.dv	
+LaGa.dv	LaGa.dv	
+LaCa.dv	LaCa.dv	
+LaJa.dv	LaJa.dv	
+LaTta.dv	LaTta.dv	
+LaTtha.dv	LaTtha.dv	
+LaDda.dv	LaDda.dv	
+LaDdha.dv	LaDdha.dv	
+LaTa.dv	LaTa.dv	
+LaTha.dv	LaTha.dv	
+LaDa.dv	LaDa.dv	
+LaPa.dv	LaPa.dv	
+LaPha.dv	LaPha.dv	
+LaBa.dv	LaBa.dv	
+LaBha.dv	LaBha.dv	
+LaMa.dv	LaMa.dv	
+LaYa.dv	LaYa.dv	
+LaLa.dv	LaLa.dv	
+LaVa.dv	LaVa.dv	
+LaSha.dv	LaSha.dv	
+LaSa.dv	LaSa.dv	
+LaHa.dv	LaHa.dv	
+LaJaNukta.dv	LaJaNukta.dv	
+LlaYa.dv	LlaYa.dv	
+LlaLla.dv	LlaLla.dv	
+VaDda.dv	VaDda.dv	
+VaYa.dv	VaYa.dv	
+VaLa.dv	VaLa.dv	
+VaVa.dv	VaVa.dv	
+VaHa.dv	VaHa.dv	
+ShaKa.dv	ShaKa.dv	
+ShaCa.dv	ShaCa.dv	
+ShaCha.dv	ShaCha.dv	
+ShaTta.dv	ShaTta.dv	
+ShaTa.dv	ShaTa.dv	
+ShaNa.dv	ShaNa.dv	
+ShaMa.dv	ShaMa.dv	
+ShaYa.dv	ShaYa.dv	
+ShaLa.dv	ShaLa.dv	
+ShaVa.dv	ShaVa.dv	
+ShaSha.dv	ShaSha.dv	
+ShaKaNukta.dv	ShaKaNukta.dv	
+SsaKa.dv	SsaKa.dv	
+SsaTta.dv	SsaTta.dv	
+SsaTtha.dv	SsaTtha.dv	
+SsaNna.dv	SsaNna.dv	
+SsaPa.dv	SsaPa.dv	
+SsaPha.dv	SsaPha.dv	
+SsaMa.dv	SsaMa.dv	
+SsaYa.dv	SsaYa.dv	
+SsaVa.dv	SsaVa.dv	
+SsaSsa.dv	SsaSsa.dv	
+SaKa.dv	SaKa.dv	
+SaKha.dv	SaKha.dv	
+SaJa.dv	SaJa.dv	
+SaTta.dv	SaTta.dv	
+SaTa.dv	SaTa.dv	
+SaTha.dv	SaTha.dv	
+SaDa.dv	SaDa.dv	
+SaNa.dv	SaNa.dv	
+SaPa.dv	SaPa.dv	
+SaPha.dv	SaPha.dv	
+SaBa.dv	SaBa.dv	
+SaMa.dv	SaMa.dv	
+SaYa.dv	SaYa.dv	
+SaLa.dv	SaLa.dv	
+SaVa.dv	SaVa.dv	
+SaSa.dv	SaSa.dv	
+HaNna.dv	HaNna.dv	
+HaNa.dv	HaNa.dv	
+HaMa.dv	HaMa.dv	
+HaYa.dv	HaYa.dv	
+HaLa.dv	HaLa.dv	
+HaVa.dv	HaVa.dv	
+KaNuktaTa.dv	KaNuktaTa.dv	
+KaNuktaPha.dv	KaNuktaPha.dv	
+KaNuktaBa.dv	KaNuktaBa.dv	
+KaNuktaMa.dv	KaNuktaMa.dv	
+KaNuktaKaNukta.dv	KaNuktaKaNukta.dv	
+KaNuktaPhaNukta.dv	KaNuktaPhaNukta.dv	
+KhaNuktaTa.dv	KhaNuktaTa.dv	
+KhaNuktaMa.dv	KhaNuktaMa.dv	
+KhaNuktaYa.dv	KhaNuktaYa.dv	
+KhaNuktaVa.dv	KhaNuktaVa.dv	
+KhaNuktaSha.dv	KhaNuktaSha.dv	
+KhaNuktaSa.dv	KhaNuktaSa.dv	
+JaNuktaYa.dv	JaNuktaYa.dv	
+JaNuktaJaNukta.dv	JaNuktaJaNukta.dv	
+PhaNuktaTa.dv	PhaNuktaTa.dv	
+PhaNuktaSa.dv	PhaNuktaSa.dv	
+PhaNuktaJaNukta.dv	PhaNuktaJaNukta.dv	
+PhaNuktaPhaNukta.dv	PhaNuktaPhaNukta.dv	
+LaRa.MAR.dv	LaRa.MAR.dv	
+KaSaPaLa.MAR.dv	KaSaPaLa.MAR.dv	
+TaPaLa.MAR.dv	TaPaLa.MAR.dv	
+KaLa.MAR.dv	KaLa.MAR.dv	
+KaSha.MAR.dv	KaSha.MAR.dv	
+KhaSha.MAR.dv	KhaSha.MAR.dv	
+GaLa.MAR.dv	GaLa.MAR.dv	
+NyaSha.MAR.dv	NyaSha.MAR.dv	
+TaLa.MAR.dv	TaLa.MAR.dv	
+NaSha.MAR.dv	NaSha.MAR.dv	
+PaLa.MAR.dv	PaLa.MAR.dv	
+PaSha.MAR.dv	PaSha.MAR.dv	
+PhaLa.MAR.dv	PhaLa.MAR.dv	
+PhaSha.MAR.dv	PhaSha.MAR.dv	
+BaLa.MAR.dv	BaLa.MAR.dv	
+BaSha.MAR.dv	BaSha.MAR.dv	
+BhaLa.MAR.dv	BhaLa.MAR.dv	
+MaLa.MAR.dv	MaLa.MAR.dv	
+MaSha.MAR.dv	MaSha.MAR.dv	
+LaLa.MAR.dv	LaLa.MAR.dv	
+VaLa.MAR.dv	VaLa.MAR.dv	
+ShaKa.MAR.dv	ShaKa.MAR.dv	
+ShaCha.MAR.dv	ShaCha.MAR.dv	
+ShaTta.MAR.dv	ShaTta.MAR.dv	
+ShaMa.MAR.dv	ShaMa.MAR.dv	
+ShaYa.MAR.dv	ShaYa.MAR.dv	
+ShaLa.MAR.dv	ShaLa.MAR.dv	
+ShaSha.MAR.dv	ShaSha.MAR.dv	
+ShaKaNukta.MAR.dv	ShaKaNukta.MAR.dv	
+SaLa.MAR.dv	SaLa.MAR.dv	
+HaLa.MAR.dv	HaLa.MAR.dv	
+KhaNuktaSha.MAR.dv	KhaNuktaSha.MAR.dv	
+LaSha.MAR.dv	LaSha.MAR.dv	
+KamatraLru.dv	KamatraLru.dv	
+KamatraLruu.dv	KamatraLruu.dv	
+PamatraLru.dv	PamatraLru.dv	
+PamatraLruu.dv	PamatraLruu.dv	
+vowelIiBindu.dv	vowelIiBindu.dv	
+vowelIiChandrabindu.dv	vowelIiChandrabindu.dv	
+Reph.dv	Reph.dv	
+RephBindu.dv	RephBindu.dv	
+RephChandrabindu.dv	RephChandrabindu.dv	
+Chandrabindu1.dv	Chandrabindu1.dv	
+Vattu.dv	Vattu.dv	
+matraIalt.dv	matraIalt.dv	
+Bindualt.dv	Bindualt.dv	
+matraEBindu.dv	matraEBindu.dv	
+matraEReph.dv	matraEReph.dv	
+matraERephBindu.dv	matraERephBindu.dv	
+matraEChandrabindu.dv	matraEChandrabindu.dv	
+matraERephChandrabindu.dv	matraERephChandrabindu.dv	
+matraAiBindu.dv	matraAiBindu.dv	
+matraAiReph.dv	matraAiReph.dv	
+matraAiRephBindu.dv	matraAiRephBindu.dv	
+matraAiChandrabindu.dv	matraAiChandrabindu.dv	
+matraAiRephChandrabindu.dv	matraAiRephChandrabindu.dv	
+matraShortEBindu.dv	matraShortEBindu.dv	
+matraShortEReph.dv	matraShortEReph.dv	
+matraShortERephBindu.dv	matraShortERephBindu.dv	
+matraShortEChandrabindu.dv	matraShortEChandrabindu.dv	
+matraShortERephChandrabindu.dv	matraShortERephChandrabindu.dv	
+matraShortAi.dv	matraShortAi.dv	
+matraShortAiBindu.dv	matraShortAiBindu.dv	
+matraShortAiReph.dv	matraShortAiReph.dv	
+matraShortAiRephBindu.dv	matraShortAiRephBindu.dv	
+matraShortAiChandrabindu.dv	matraShortAiChandrabindu.dv	
+matraShortAiRephChandrabindu.dv	matraShortAiRephChandrabindu.dv	
+matraABindu.dv	matraABindu.dv	
+matraAReph.dv	matraAReph.dv	
+matraARephBindu.dv	matraARephBindu.dv	
+matraAChandrabindu.dv	matraAChandrabindu.dv	
+matraARephChandrabindu.dv	matraARephChandrabindu.dv	
+matraOBindu.dv	matraOBindu.dv	
+matraOReph.dv	matraOReph.dv	
+matraORephBindu.dv	matraORephBindu.dv	
+matraOChandrabindu.dv	matraOChandrabindu.dv	
+matraORephChandrabindu.dv	matraORephChandrabindu.dv	
+matraAuBindu.dv	matraAuBindu.dv	
+matraAuReph.dv	matraAuReph.dv	
+matraAuRephBindu.dv	matraAuRephBindu.dv	
+matraAuChandrabindu.dv	matraAuChandrabindu.dv	
+matraAuRephChandrabindu.dv	matraAuRephChandrabindu.dv	
+matraShortOBindu.dv	matraShortOBindu.dv	
+matraShortOReph.dv	matraShortOReph.dv	
+matraShortORephBindu.dv	matraShortORephBindu.dv	
+matraShortOChandrabindu.dv	matraShortOChandrabindu.dv	
+matraShortORephChandrabindu.dv	matraShortORephChandrabindu.dv	
+matraShortAuBindu.dv	matraShortAuBindu.dv	
+matraShortAuReph.dv	matraShortAuReph.dv	
+matraShortAuRephBindu.dv	matraShortAuRephBindu.dv	
+matraShortAuChandrabindu.dv	matraShortAuChandrabindu.dv	
+matraShortAuRephChandrabindu.dv	matraShortAuRephChandrabindu.dv	
+matraIiBindu.dv	matraIiBindu.dv	
+matraIiReph.dv	matraIiReph.dv	
+matraIiRephBindu.dv	matraIiRephBindu.dv	
+matraIiChandrabindu.dv	matraIiChandrabindu.dv	
+matraIiRephChandrabindu.dv	matraIiRephChandrabindu.dv	
+matraIi1.dv	matraIi1.dv	
+matraIi2.dv	matraIi2.dv	
+matraIi3.dv	matraIi3.dv	
+matraIi4.dv	matraIi4.dv	
+matraIi5.dv	matraIi5.dv	
+matraIi6.dv	matraIi6.dv	
+matraIi7.dv	matraIi7.dv	
+matraIiBindu1.dv	matraIiBindu1.dv	
+matraIiBindu2.dv	matraIiBindu2.dv	
+matraIiBindu3.dv	matraIiBindu3.dv	
+matraIiBindu4.dv	matraIiBindu4.dv	
+matraIiBindu5.dv	matraIiBindu5.dv	
+matraIiBindu6.dv	matraIiBindu6.dv	
+matraIiBindu7.dv	matraIiBindu7.dv	
+matraIiReph1.dv	matraIiReph1.dv	
+matraIiReph2.dv	matraIiReph2.dv	
+matraIiReph3.dv	matraIiReph3.dv	
+matraIiReph4.dv	matraIiReph4.dv	
+matraIiReph5.dv	matraIiReph5.dv	
+matraIiReph6.dv	matraIiReph6.dv	
+matraIiReph7.dv	matraIiReph7.dv	
+matraIiRephBindu1.dv	matraIiRephBindu1.dv	
+matraIiRephBindu2.dv	matraIiRephBindu2.dv	
+matraIiRephBindu3.dv	matraIiRephBindu3.dv	
+matraIiRephBindu4.dv	matraIiRephBindu4.dv	
+matraIiRephBindu5.dv	matraIiRephBindu5.dv	
+matraIiRephBindu6.dv	matraIiRephBindu6.dv	
+matraIiRephBindu7.dv	matraIiRephBindu7.dv	
+matraIiChandrabindu1.dv	matraIiChandrabindu1.dv	
+matraIiChandrabindu2.dv	matraIiChandrabindu2.dv	
+matraIiChandrabindu3.dv	matraIiChandrabindu3.dv	
+matraIiChandrabindu4.dv	matraIiChandrabindu4.dv	
+matraIiChandrabindu5.dv	matraIiChandrabindu5.dv	
+matraIiChandrabindu6.dv	matraIiChandrabindu6.dv	
+matraIiChandrabindu7.dv	matraIiChandrabindu7.dv	
+matraIiRephChandrabindu1.dv	matraIiRephChandrabindu1.dv	
+matraIiRephChandrabindu2.dv	matraIiRephChandrabindu2.dv	
+matraIiRephChandrabindu3.dv	matraIiRephChandrabindu3.dv	
+matraIiRephChandrabindu4.dv	matraIiRephChandrabindu4.dv	
+matraIiRephChandrabindu5.dv	matraIiRephChandrabindu5.dv	
+matraIiRephChandrabindu6.dv	matraIiRephChandrabindu6.dv	
+matraIiRephChandrabindu7.dv	matraIiRephChandrabindu7.dv	
+KaKamatraU.dv	KaKamatraU.dv	
+KaKamatraUu.dv	KaKamatraUu.dv	
+KaKamatraRu.dv	KaKamatraRu.dv	
+KaTamatraU.dv	KaTamatraU.dv	
+KaTamatraUu.dv	KaTamatraUu.dv	
+KaTamatraRu.dv	KaTamatraRu.dv	
+KaYamatraU.dv	KaYamatraU.dv	
+KaYamatraUu.dv	KaYamatraUu.dv	
+KaRamatraU.dv	KaRamatraU.dv	
+KaRamatraUu.dv	KaRamatraUu.dv	
+KaVamatraU.dv	KaVamatraU.dv	
+GaRamatraU.dv	GaRamatraU.dv	
+GaRamatraUu.dv	GaRamatraUu.dv	
+GaRamatraRu.dv	GaRamatraRu.dv	
+GhaRamatraU.dv	GhaRamatraU.dv	
+GhaRamatraUu.dv	GhaRamatraUu.dv	
+TtaRamatraU.dv	TtaRamatraU.dv	
+TtaRamatraUu.dv	TtaRamatraUu.dv	
+TtaTtamatraU.dv	TtaTtamatraU.dv	
+TtaTtamatraUu.dv	TtaTtamatraUu.dv	
+TtaYamatraU.dv	TtaYamatraU.dv	
+TtaYamatraUu.dv	TtaYamatraUu.dv	
+TthaYamatraU.dv	TthaYamatraU.dv	
+DdaDdamatraU.dv	DdaDdamatraU.dv	
+DdaDdamatraUu.dv	DdaDdamatraUu.dv	
+DdaYamatraU.dv	DdaYamatraU.dv	
+DdaYamatraUu.dv	DdaYamatraUu.dv	
+DdaRamatraU.dv	DdaRamatraU.dv	
+DdaRamatraUu.dv	DdaRamatraUu.dv	
+TaTamatraU.dv	TaTamatraU.dv	
+TaTamatraUu.dv	TaTamatraUu.dv	
+TaTamatraRu.dv	TaTamatraRu.dv	
+TaNamatraU.dv	TaNamatraU.dv	
+TaNamatraUu.dv	TaNamatraUu.dv	
+TaYamatraU.dv	TaYamatraU.dv	
+TaYamatraUu.dv	TaYamatraUu.dv	
+TaRamatraU.dv	TaRamatraU.dv	
+TaRamatraUu.dv	TaRamatraUu.dv	
+ThaRamatraU.dv	ThaRamatraU.dv	
+ThaRamatraUu.dv	ThaRamatraUu.dv	
+DaGamatraU.dv	DaGamatraU.dv	
+DaGamatraUu.dv	DaGamatraUu.dv	
+DaGamatraRu.dv	DaGamatraRu.dv	
+DaDamatraU.dv	DaDamatraU.dv	
+DaDamatraUu.dv	DaDamatraUu.dv	
+DaDamatraRu.dv	DaDamatraRu.dv	
+DaDhamatraU.dv	DaDhamatraU.dv	
+DaDhamatraUu.dv	DaDhamatraUu.dv	
+DaDhamatraRu.dv	DaDhamatraRu.dv	
+DaNamatraU.dv	DaNamatraU.dv	
+DaNamatraUu.dv	DaNamatraUu.dv	
+DaBamatraU.dv	DaBamatraU.dv	
+DaBamatraUu.dv	DaBamatraUu.dv	
+DaBamatraRu.dv	DaBamatraRu.dv	
+DaBhamatraU.dv	DaBhamatraU.dv	
+DaBhamatraUu.dv	DaBhamatraUu.dv	
+DaYamatraU.dv	DaYamatraU.dv	
+DaYamatraUu.dv	DaYamatraUu.dv	
+DaYamatraRu.dv	DaYamatraRu.dv	
+DaRamatraU.dv	DaRamatraU.dv	
+DaRamatraUu.dv	DaRamatraUu.dv	
+DaRamatraRu.dv	DaRamatraRu.dv	
+DaVamatraU.dv	DaVamatraU.dv	
+DaVamatraUu.dv	DaVamatraUu.dv	
+DaVamatraRu.dv	DaVamatraRu.dv	
+DhaRamatraU.dv	DhaRamatraU.dv	
+DhaRamatraUu.dv	DhaRamatraUu.dv	
+NaNamatraU.dv	NaNamatraU.dv	
+NaNamatraUu.dv	NaNamatraUu.dv	
+NaShamatraU.dv	NaShamatraU.dv	
+NaShamatraUu.dv	NaShamatraUu.dv	
+NaShamatraU.MAR.dv	NaShamatraU.MAR.dv	
+NaShamatraUu.MAR.dv	NaShamatraUu.MAR.dv	
+PaPamatraU.dv	PaPamatraU.dv	
+PaPamatraUu.dv	PaPamatraUu.dv	
+PaPhamatraU.dv	PaPhamatraU.dv	
+PaRamatraU.dv	PaRamatraU.dv	
+PaRamatraUu.dv	PaRamatraUu.dv	
+PaRamatraRu.dv	PaRamatraRu.dv	
+PhaRamatraU.dv	PhaRamatraU.dv	
+PhaRamatraUu.dv	PhaRamatraUu.dv	
+BaRamatraU.dv	BaRamatraU.dv	
+BaRamatraUu.dv	BaRamatraUu.dv	
+BhaRamatraU.dv	BhaRamatraU.dv	
+BhaRamatraUu.dv	BhaRamatraUu.dv	
+BhaRamatraRu.dv	BhaRamatraRu.dv	
+MaRamatraU.dv	MaRamatraU.dv	
+MaMamatraU.dv	MaMamatraU.dv
+MaMamatraUu.dv	MaMamatraUu.dv
+LaLamatraU.dv	LaLamatraU.dv	
+LaLamatraUu.dv	LaLamatraUu.dv	
+LaLamatraRu.dv	LaLamatraRu.dv	
+VaRamatraU.dv	VaRamatraU.dv	
+ShaCamatraU.dv	ShaCamatraU.dv	
+ShaCamatraUu.dv	ShaCamatraUu.dv	
+ShaNamatraU.dv	ShaNamatraU.dv	
+ShaNamatraUu.dv	ShaNamatraUu.dv	
+ShaRamatraU.dv	ShaRamatraU.dv	
+ShaRamatraUu.dv	ShaRamatraUu.dv	
+ShaRamatraRu.dv	ShaRamatraRu.dv	
+ShaLamatraU.dv	ShaLamatraU.dv	
+ShaLamatraUu.dv	ShaLamatraUu.dv	
+SsaTtamatraU.dv	SsaTtamatraU.dv	
+SsaTtamatraUu.dv	SsaTtamatraUu.dv	
+SsaTthamatraU.dv	SsaTthamatraU.dv	
+SsaTthamatraUu.dv	SsaTthamatraUu.dv	
+SsaNnamatraU.dv	SsaNnamatraU.dv	
+SsaNnamatraUu.dv	SsaNnamatraUu.dv	
+SsaPamatraU.dv	SsaPamatraU.dv	
+SsaPamatraUu.dv	SsaPamatraUu.dv	
+SsaRamatraU.dv	SsaRamatraU.dv	
+SsaRamatraUu.dv	SsaRamatraUu.dv	
+SaRamatraUu.dv	SaRamatraUu.dv	
+HaNamatraU.dv	HaNamatraU.dv	
+HaYamatraU.dv	HaYamatraU.dv	
+HaYamatraUu.dv	HaYamatraUu.dv	
+HaRamatraU.dv	HaRamatraU.dv	
+HaRamatraUu.dv	HaRamatraUu.dv	
+matraI1.dv	matraI1.dv	
+matraI2.dv	matraI2.dv	
+matraI3.dv	matraI3.dv	
+matraI4.dv	matraI4.dv	
+matraI5.dv	matraI5.dv	
+matraI6.dv	matraI6.dv	
+matraI7.dv	matraI7.dv	
+matraI8.dv	matraI8.dv	
+matraI9.dv	matraI9.dv	
+matraI10.dv	matraI10.dv	
+matraI11.dv	matraI11.dv	
+matraI12.dv	matraI12.dv	
+matraI13.dv	matraI13.dv	
+matraI14.dv	matraI14.dv	
+matraI15.dv	matraI15.dv	
+matraI16.dv	matraI16.dv	
+matraI17.dv	matraI17.dv	
+matraI18.dv	matraI18.dv	
+matraI19.dv	matraI19.dv	
+matraIBindu.dv	matraIBindu.dv	
+matraIBindu1.dv	matraIBindu1.dv	
+matraIBindu2.dv	matraIBindu2.dv	
+matraIBindu3.dv	matraIBindu3.dv	
+matraIBindu4.dv	matraIBindu4.dv	
+matraIBindu5.dv	matraIBindu5.dv	
+matraIBindu6.dv	matraIBindu6.dv	
+matraIBindu7.dv	matraIBindu7.dv	
+matraIBindu8.dv	matraIBindu8.dv	
+matraIBindu9.dv	matraIBindu9.dv	
+matraIBindu10.dv	matraIBindu10.dv	
+matraIBindu11.dv	matraIBindu11.dv	
+matraIBindu12.dv	matraIBindu12.dv	
+matraIBindu13.dv	matraIBindu13.dv	
+matraIBindu14.dv	matraIBindu14.dv	
+matraIBindu15.dv	matraIBindu15.dv	
+matraIBindu16.dv	matraIBindu16.dv	
+matraIBindu17.dv	matraIBindu17.dv	
+matraIBindu18.dv	matraIBindu18.dv	
+matraIBindu19.dv	matraIBindu19.dv	
+Ja1.dv	Ja1.dv	
+JaNukta1.dv	JaNukta1.dv	
+JaHalant1.dv	JaHalant1.dv	
+JaNuktaHalant1.dv	JaNuktaHalant1.dv	
+JaHalf1.dv	JaHalf1.dv	
+JaNuktaHalf1.dv	JaNuktaHalf1.dv	
+JamatraU1.dv	JamatraU1.dv	
+JamatraUu1.dv	JamatraUu1.dv	
+JamatraRu1.dv	JamatraRu1.dv	
+JaNuktamatraU1.dv	JaNuktamatraU1.dv	
+JaNuktamatraUu1.dv	JaNuktamatraUu1.dv	
+JaNuktamatraRu1.dv	JaNuktamatraRu1.dv	
+JaRa1.dv	JaRa1.dv	
+JaNuktaRa1.dv	JaNuktaRa1.dv	
+JaJaNya1.dv	JaJaNya1.dv	
+JaJaYa1.dv	JaJaYa1.dv	
+JaJaVa1.dv	JaJaVa1.dv	
+NyaJaYa1.dv	NyaJaYa1.dv	
+BaJaYa1.dv	BaJaYa1.dv	
+KaJa1.dv	KaJa1.dv	
+GaJa1.dv	GaJa1.dv	
+JaKa1.dv	JaKa1.dv	
+JaJa1.dv	JaJa1.dv	
+JaJha1.dv	JaJha1.dv	
+JaTta1.dv	JaTta1.dv	
+JaDda1.dv	JaDda1.dv	
+JaTa1.dv	JaTa1.dv	
+JaDa1.dv	JaDa1.dv	
+JaNa1.dv	JaNa1.dv	
+JaBa1.dv	JaBa1.dv	
+JaMa1.dv	JaMa1.dv	
+JaYa1.dv	JaYa1.dv	
+JaVa1.dv	JaVa1.dv	
+NyaJa1.dv	NyaJa1.dv	
+NaJa1.dv	NaJa1.dv	
+PhaJa1.dv	PhaJa1.dv	
+BaJa1.dv	BaJa1.dv	
+BaJaNukta1.dv	BaJaNukta1.dv	
+LaJa1.dv	LaJa1.dv	
+LaJaNukta1.dv	LaJaNukta1.dv	
+SaJa1.dv	SaJa1.dv	
+JaNuktaYa1.dv	JaNuktaYa1.dv	
+JaNuktaJaNukta1.dv	JaNuktaJaNukta1.dv	
+PhaNuktaJaNukta1.dv	PhaNuktaJaNukta1.dv	
+vowelIialt.dv	vowelIialt.dv
+vowelAialt.dv	vowelAialt.dv
+vowelOalt.dv	vowelOalt.dv
+vowelAualt.dv	vowelAualt.dv
+vowelIiBindualt.dv	vowelIiBindualt.dv
+vowelIiChandrabindualt.dv	vowelIiChandrabindualt.dv
+matraEalt.dv	matraEalt.dv
+matraAialt.dv	matraAialt.dv
+Rephalt.dv	Rephalt.dv
+RephBindualt.dv	RephBindualt.dv
+RephChandrabindualt.dv	RephChandrabindualt.dv
+matraEBindualt.dv	matraEBindualt.dv
+matraERephalt.dv	matraERephalt.dv
+matraERephBindualt.dv	matraERephBindualt.dv
+matraEChandrabindualt.dv	matraEChandrabindualt.dv
+matraERephChandrabindualt.dv	matraERephChandrabindualt.dv
+matraAiBindualt.dv	matraAiBindualt.dv
+matraAiRephalt.dv	matraAiRephalt.dv
+matraAiRephBindualt.dv	matraAiRephBindualt.dv
+matraAiChandrabindualt.dv	matraAiChandrabindualt.dv
+matraAiRephChandrabindualt.dv	matraAiRephChandrabindualt.dv
+matraABindualt.dv	matraABindualt.dv
+matraARephalt.dv	matraARephalt.dv
+matraARephBindualt.dv	matraARephBindualt.dv
+matraARephChandrabindualt.dv	matraARephChandrabindualt.dv
+matraOalt.dv	matraOalt.dv
+matraOBindualt.dv	matraOBindualt.dv
+matraORephalt.dv	matraORephalt.dv
+matraORephBindualt.dv	matraORephBindualt.dv
+matraOChandrabindualt.dv	matraOChandrabindualt.dv
+matraORephChandrabindualt.dv	matraORephChandrabindualt.dv
+matraAualt.dv	matraAualt.dv
+matraAuBindualt.dv	matraAuBindualt.dv
+matraAuRephalt.dv	matraAuRephalt.dv
+matraAuRephBindualt.dv	matraAuRephBindualt.dv
+matraAuChandrabindualt.dv	matraAuChandrabindualt.dv
+matraAuRephChandrabindualt.dv	matraAuRephChandrabindualt.dv
+matraIialt.dv	matraIialt.dv
+matraIiBindualt.dv	matraIiBindualt.dv
+matraIiRephalt.dv	matraIiRephalt.dv
+matraIiRephBindualt.dv	matraIiRephBindualt.dv
+matraIiChandrabindualt.dv	matraIiChandrabindualt.dv
+matraIiRephChandrabindualt.dv	matraIiRephChandrabindualt.dv
+ZWJ	ZWJ	uni200D
+ZWNJ	ZWNJ	uni200C
+dottedcircle	dottedcircle	uni25CC
+EkType	EkType
+
+
