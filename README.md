@@ -1,4 +1,4 @@
-# Jaini
+![Jaini](https://github.com/EkType/Jaini/blob/master/Promotion/Jaini_header.gif "Jaini")
 
 Jainī is a Devanāgarī typeface based on the calligraphic style of the Jain Kalpasūtra manuscripts. The design of this font is based on the 1503 Kalpasūtra manuscript. Jainī has several unique features not seen in Bāḻabodha, these include disconnected śirōrēkhā with triangular wedges, short upper mātrās, squarish letters with large kānā-height, heavy knots, and lower matrās integrated within the kānā height. Since the original manuscript uses letter-shapes which are not familiar to contemporary readers, these have been redesigned along with Latin numbers and punctuations.
 
