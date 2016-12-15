@@ -19,7 +19,7 @@ To view the copyright and specific terms and conditions please refer to [OFL.txt
 
 ## Downloading the font
 
-The latest release of the font can be downloaded from the [releases page]().
+The latest release of the font can be downloaded from the [releases page](https://github.com/EkType/Jaini/releases).
 
 ## Installing the font
 
