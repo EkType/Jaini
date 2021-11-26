@@ -1,8 +1,8 @@
-﻿Copyright (c) 2016 Ek Type (www.ektype.in)
+﻿Copyright 2016 The Jaini Project Authors (https://github.com/EkType/Jaini)
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:
-http://scripts.sil.org/OFL
+https://scripts.sil.org/OFL
 
 
 -----------------------------------------------------------
