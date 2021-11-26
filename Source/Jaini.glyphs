@@ -25,8 +25,7 @@ value = "https://scripts.sil.org/OFL";
 }
 );
 date = "2021-11-25 13:35:02 +0000";
-designer = "Ek Type";
-designerURL = "https://ektype.in";
+designer = "Girish Dalvi, Maithili Shingre";
 familyName = Jaini;
 featurePrefixes = (
 {
@@ -139428,6 +139427,8 @@ instanceInterpolations = {
 name = Regular;
 }
 );
+manufacturer = "Ek Type";
+manufacturerURL = "https://ektype.in";
 unitsPerEm = 1000;
 userData = {
 GSDimensionPlugin.Dimensions = {

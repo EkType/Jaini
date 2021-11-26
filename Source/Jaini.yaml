@@ -1,6 +1,6 @@
 sources:
   - Jaini.glyphs
-outputDir: "../../Release"
+outputDir: "../Release"
 buildStatic: true
 buildVariable: false
 buildTTF: true
