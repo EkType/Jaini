@@ -1,7 +1,7 @@
 # Font Binaries
 *.bat
-*.otf
-*.ttf
+# *.otf
+# *.ttf
 *.exe
 *.zip
 *.pfa
@@ -14,3 +14,5 @@
 #Binary Folders
 OTF/
 TTF/
+
+.DS_Store
