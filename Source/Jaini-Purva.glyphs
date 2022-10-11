@@ -9659,6 +9659,17 @@ width = 130;
 unicode = 0020;
 },
 {
+glyphname = nbspace;
+lastChange = "2022-10-11 12:45:48 +0000";
+layers = (
+{
+layerId = "F4FA7DF2-C02A-4F91-A6B1-A302804FA935";
+width = 130;
+}
+);
+unicode = 00A0;
+},
+{
 glyphname = CR;
 layers = (
 {
