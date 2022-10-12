@@ -13,6 +13,6 @@
 *.vfbak
 #Binary Folders
 OTF/
-TTF/
+# TTF/
 
 .DS_Store
