@@ -29,3 +29,7 @@ N: Maithili Shingre
 E: maithili@whitecrow.in
 D: Type Design
 
+N: Taresh Vohra
+E: taresh.vohra@gmail.com
+D: Type Design
+
