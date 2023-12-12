@@ -1,4 +1,4 @@
-![Jaini](https://github.com/EkType/Jaini/blob/master/Promotion/Jaini_header.gif "Jaini")
+![Jaini](https://github.com/EkType/Jaini/blob/master/Promotion/Jaini_Header.png "Jaini")
 
 Jaini and Jaini Purva (Devanagari) are typefaces based on the calligraphic style of the Jain Kalpasutra manuscripts, particularly referencing a manuscript from 1503 CE. The manuscript style has several unique features not seen in the commonly observed Balbodh style. These include a disconnected shirorekha with triangular wedges, short upper matras, squarish letters with large kana height, heavy knots, and the integration of lower matras within the kana height. It also contains some letter-shapes that have evolved over time and are not familiar to current readers. In an attempt to revive the distinct calligraphic style for contemporary use, Jaini adapts visual features of the manuscript style to contemporary letter-structures. Jaini and Jaini Purva differ in their treatment of conjuncts; Jaini adheres to contemporary conventions of horizontal conjuncts, whereas Jaini Purva stays true to vertically stacked conjuncts as seen in manuscripts.
 
