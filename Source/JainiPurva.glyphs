@@ -1992,7 +1992,7 @@ value = EKTF;
 date = "2021-11-25 13:35:02 +0000";
 designer = "Maithili Shingre, Girish Dalvi (Devanagari), Taresh Vohra (Latin)";
 designerURL = "https://ektype.in";
-familyName = JainiPurva;
+familyName = "Jaini Purva";
 featurePrefixes = (
 {
 code = "languagesystem DFLT dflt;
