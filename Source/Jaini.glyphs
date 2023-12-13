@@ -3,7 +3,11 @@
 DisplayStrings = (
 "\012/matraAyBindu.dv \012/matraAyChandrabindu.dv \012/matraAyReph.dv \012/matraAyRephBindu.dv \012/matraAyRephChandrabindu.dv",
 "/Bindu.dv/vowelAy.dv/vowelAu.dv '/space '/uni096E '/space '/uni096D '",
-"/quoteleft U/quoteright/space ¿U/quoteright \012LE"
+"/quoteleft U/quoteright/space ¿U/quoteright \012LE",
+"/ogonekcomb/ogonek",
+"¸/cedillacomb",
+"/macroncomb ¯",
+"¨/dotaccent `´/hungarumlaut/circumflex/caron/breve/ring/tilde ¯¸/ogonek"
 );
 classes = (
 {
@@ -24584,37 +24588,15 @@ unicode = 00AF;
 },
 {
 glyphname = cedilla;
-lastChange = "2023-12-05 09:52:14 +0000";
+lastChange = "2023-12-13 11:18:08 +0000";
 layers = (
 {
-layerId = m002;
-paths = (
+components = (
 {
-closed = 1;
-nodes = (
-"272 -183 OFFCURVE",
-"315 -134 OFFCURVE",
-"315 -73 CURVE SMOOTH",
-"315 -38 OFFCURVE",
-"286 -9 OFFCURVE",
-"244 23 CURVE",
-"166 31 LINE",
-"211 11 OFFCURVE",
-"232 -9 OFFCURVE",
-"232 -33 CURVE SMOOTH",
-"232 -66 OFFCURVE",
-"210 -101 OFFCURVE",
-"175 -101 CURVE SMOOTH",
-"156 -101 OFFCURVE",
-"143 -82 OFFCURVE",
-"128 -66 CURVE",
-"100 -93 LINE",
-"141 -148 OFFCURVE",
-"181 -183 OFFCURVE",
-"225 -183 CURVE SMOOTH"
-);
+name = cedillacomb;
 }
 );
+layerId = m002;
 width = 415;
 }
 );
@@ -24622,38 +24604,15 @@ unicode = 00B8;
 },
 {
 glyphname = ogonek;
-lastChange = "2023-12-05 09:52:14 +0000";
+lastChange = "2023-12-13 11:18:31 +0000";
 layers = (
 {
-layerId = m002;
-paths = (
+components = (
 {
-closed = 1;
-nodes = (
-"244 -29 LINE",
-"221 -41 OFFCURVE",
-"196 -49 OFFCURVE",
-"172 -49 CURVE SMOOTH",
-"162 -49 OFFCURVE",
-"157 -44 OFFCURVE",
-"157 -34 CURVE SMOOTH",
-"157 -12 OFFCURVE",
-"180 0 OFFCURVE",
-"236 23 CURVE",
-"124 52 LINE",
-"111 33 OFFCURVE",
-"100 6 OFFCURVE",
-"100 -18 CURVE SMOOTH",
-"100 -59 OFFCURVE",
-"171 -133 OFFCURVE",
-"215 -133 CURVE SMOOTH",
-"244 -133 OFFCURVE",
-"273 -124 OFFCURVE",
-"296 -108 CURVE",
-"251 -29 LINE"
-);
+name = ogonekcomb;
 }
 );
+layerId = m002;
 width = 396;
 }
 );
