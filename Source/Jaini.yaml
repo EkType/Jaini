@@ -1,8 +1,0 @@
-sources:
-  - Jaini.glyphs
-outputDir: "../Release"
-buildStatic: true
-buildVariable: false
-buildTTF: true
-buildOTF: false
-buildWebfont: false
