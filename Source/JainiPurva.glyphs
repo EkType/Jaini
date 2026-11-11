@@ -2173,7 +2173,7 @@ code = "	script dev2;
 		sub Bha.dv Halant.dv Ra.dv by BhaRa.dv;
 		sub Ma.dv Halant.dv Ra.dv by MaRa.dv;
 		sub Ya.dv Halant.dv Ra.dv by YaRa.dv;
-		sub [La.dv La.MAR.dv] Halant.dv Ra.dv by LaRa.dv;
+		sub La.dv Halant.dv Ra.dv by LaRa.dv;
 		sub Va.dv Halant.dv Ra.dv by VaRa.dv;
 		sub [Sha.dv Sha.MAR.dv] Halant.dv Ra.dv by ShaRa.dv;
 		sub Sa.dv Halant.dv Ra.dv by SaRa.dv;
